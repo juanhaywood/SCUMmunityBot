@@ -12,6 +12,8 @@ Clean up log messages formating
 
 G-Portal support (currently supports only PingPerfect via FTP)
 
+Discord Emoji Pack of Weapons for kill feed.
+
 more
 
 more
