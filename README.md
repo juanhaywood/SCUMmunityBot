@@ -6,6 +6,8 @@ Stream server logs to Discord
 
 ![image](https://user-images.githubusercontent.com/53084642/132686470-9b4d04a1-495e-463b-a4e8-283a8a630cea.png)
 
+![image](https://user-images.githubusercontent.com/53084642/132687074-eacec418-bd61-4870-ae7f-eb237c272789.png)
+
 ![image](https://user-images.githubusercontent.com/53084642/132686913-d7ce71e5-f1ab-4b56-acba-c5703a095235.png)
 
 Live Display Of Battlemetrics Info
