@@ -1,24 +1,29 @@
 # SCUMmunity-Bot
 Open-source bot for the SCUM Community
 
+## Features: 
+Stream server logs to Discord
+
+![image](https://user-images.githubusercontent.com/53084642/132686470-9b4d04a1-495e-463b-a4e8-283a8a630cea.png)
+
+![image](https://user-images.githubusercontent.com/53084642/132686545-915c109d-18de-490d-9816-09d9b4fa4d98.png)
+
+Live Display Of Battlemetrics Info
+
+![image](https://user-images.githubusercontent.com/53084642/132686678-48a178dd-2d2f-4919-a561-47b285f8924e.png)
+
+
+
+
+
 ## Installation
 Coming Soon
 
 ## To do: 
 
-Instructions to set up bot
+See project issues for list of to-do items
 
-Clean up log messages formating
 
-G-Portal support (currently supports only PingPerfect via FTP)
-
-Discord Emoji Pack of Weapons for kill feed.
-
-more
-
-more
-
-more
 
 ![image](https://user-images.githubusercontent.com/53084642/132558213-13cbcfbd-892f-484f-b9aa-a98935261312.png)
 
