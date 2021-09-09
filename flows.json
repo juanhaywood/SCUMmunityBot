@@ -85,6 +85,72 @@
         "h": 622
     },
     {
+        "id": "42e0ca0b34b1ace9",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "846b45e89f07638e",
+            "62e6a7686260e20c",
+            "97f850dee3c80351",
+            "ceef083bbb5a5882",
+            "1a9606d279ae8bfa",
+            "b92e4d5a757aa9ee",
+            "4a1cde2f6c3c5dd3",
+            "f8bcf518c4d6a0d3",
+            "543d8e64cb8b780e",
+            "4f6c2a2ec6c139af",
+            "83ab42e7ccbc87e0",
+            "fb93372f3fa018f2",
+            "744cda17e1eef0f0",
+            "d24e807803192783",
+            "bb481680c7838228",
+            "a3ae95950a9ec97c"
+        ],
+        "x": 2694,
+        "y": 19,
+        "w": 1292,
+        "h": 462
+    },
+    {
+        "id": "0a693ed80d2f4120",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a0afc63c51e60031",
+            "71b5dff00ed10042",
+            "a16c87c58967aa49",
+            "eb3658ede499a134",
+            "ede91e35096fa18d",
+            "d8aec8dbbb245fd8",
+            "670ab20c8c4c7c26",
+            "5323bc0b2a2e2691",
+            "9cb5f4eabd6c7153",
+            "f1b7362c3fb12344"
+        ],
+        "x": 2694,
+        "y": 539,
+        "w": 612,
+        "h": 342
+    },
+    {
         "id": "42a903ea.527e3c",
         "type": "advanced-ftp-config",
         "host": "165.73.241.82",
@@ -131,6 +197,113 @@
         "name": "TEC1 System"
     },
     {
+        "id": "85fa4088e73530eb",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cdebc38f99ac001e",
+        "type": "ui_group",
+        "name": "Battlemetrics Setup",
+        "tab": "71435652b50b9e7f",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
         "id": "a3647966f7782168",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
@@ -148,8 +321,8 @@
         "throwError": true,
         "showError": true,
         "name": "",
-        "x": 1040,
-        "y": 260,
+        "x": 1060,
+        "y": 140,
         "wires": [
             [
                 "f7e219e337e5edec"
@@ -1229,7 +1402,6 @@
         "wires": [
             [
                 "c12c335c04b11519",
-                "d29c84aca2d9cd9b",
                 "3acc0d2a1d6808d1"
             ]
         ]
@@ -3014,25 +3186,6 @@
         ]
     },
     {
-        "id": "d29c84aca2d9cd9b",
-        "type": "function",
-        "z": "e7c83390c801a80d",
-        "name": "Format message - login",
-        "func": "msg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1590,
-        "y": 1360,
-        "wires": [
-            [
-                "bd24a9a6886cabfe"
-            ]
-        ]
-    },
-    {
         "id": "e5a769887b87fd39",
         "type": "function",
         "z": "e7c83390c801a80d",
@@ -3068,31 +3221,6 @@
             [
                 "bd24a9a6886cabfe"
             ]
-        ]
-    },
-    {
-        "id": "970476fb6c2105b6",
-        "type": "change",
-        "z": "e7c83390c801a80d",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 850,
-        "y": 220,
-        "wires": [
-            []
         ]
     },
     {
@@ -3186,8 +3314,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 870,
-        "y": 180,
+        "x": 830,
+        "y": 160,
         "wires": []
     },
     {
@@ -3396,7 +3524,690 @@
         "x": 910,
         "y": 1440,
         "wires": [
-            [],
+            [
+                "5c7d207a44f42aa3"
+            ],
+            [
+                "8953d7cf85ef7088"
+            ]
+        ]
+    },
+    {
+        "id": "5c7d207a44f42aa3",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "name": "Create Login Object",
+        "func": "var a = msg.payload;\nconst login = {};\nlogin.time = {};\nlogin.player = {};\n\nlogin.time.year = a.substr(0, 4);\nlogin.time.month = a.substr(5, 2);\nlogin.time.day = a.substr(8, 2);\nlogin.time.hour = a.substr(11, 2);\nlogin.time.minute = a.substr(14, 2);\nlogin.time.second = a.substr(17, 2);\n\nvar playerdetails = a.substr(a.indexOf(\"'\")+1, ((a.indexOf(\"'\", a.indexOf(\"'\")+1)) - (a.indexOf(\"'\")+1))+1); //can add lastindexof to simplify\nlogin.player.ip = playerdetails.substr(0, playerdetails.indexOf(\" \"));\nlogin.player.steamid = playerdetails.substr(playerdetails.indexOf(\" \")+1, (playerdetails.indexOf(\":\")-playerdetails.indexOf(\" \")-1));\nlogin.player.scumname = playerdetails.substr(playerdetails.indexOf(\":\")+1, (playerdetails.lastIndexOf(\"(\")-playerdetails.indexOf(\":\")-1));\nlogin.player.scumid = playerdetails.substr(playerdetails.lastIndexOf(\"(\")+1, (playerdetails.lastIndexOf(\")\")-playerdetails.lastIndexOf(\"(\")-1));\n\nreturn login;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1420,
+        "wires": [
+            [
+                "1bbd7d3134cf5e05"
+            ]
+        ]
+    },
+    {
+        "id": "c6861078a0250faa",
+        "type": "inject",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2021.09.10-08.27.28: '102.65.182.172 76561198233354416:CPT. RvD(1250)' logged in",
+        "payloadType": "str",
+        "x": 800,
+        "y": 1540,
+        "wires": [
+            [
+                "3acc0d2a1d6808d1"
+            ]
+        ]
+    },
+    {
+        "id": "1bbd7d3134cf5e05",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "name": "format login message",
+        "func": "msg.payload = \"```diff\\n+login Time: [\" + msg.time.hour + \":\" + msg.time.minute + \":\" + msg.time.second + \"] ID: [\" + msg.player.steamid + \"] Name: [\" + msg.player.scumname + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1420,
+        "wires": [
+            [
+                "bd24a9a6886cabfe",
+                "a2ac0fadcda379ea"
+            ]
+        ]
+    },
+    {
+        "id": "8953d7cf85ef7088",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "name": "format logout message",
+        "func": "msg.payload = \"```diff\\n-logout \" + msg.payload + \"\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1480,
+        "wires": [
+            [
+                "bd24a9a6886cabfe"
+            ]
+        ]
+    },
+    {
+        "id": "a2ac0fadcda379ea",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1630,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "846b45e89f07638e",
+        "type": "http request",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.battlemetrics.com/servers/{{{server}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "bearer",
+        "x": 3170,
+        "y": 120,
+        "wires": [
+            [
+                "97f850dee3c80351"
+            ]
+        ]
+    },
+    {
+        "id": "62e6a7686260e20c",
+        "type": "inject",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 2810,
+        "y": 120,
+        "wires": [
+            [
+                "4a1cde2f6c3c5dd3"
+            ]
+        ]
+    },
+    {
+        "id": "97f850dee3c80351",
+        "type": "json",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 3330,
+        "y": 120,
+        "wires": [
+            [
+                "1a9606d279ae8bfa"
+            ]
+        ]
+    },
+    {
+        "id": "ceef083bbb5a5882",
+        "type": "discordMessageManager",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "channel": "",
+        "token": "859dbcb8a11c0bcd",
+        "x": 3690,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a9606d279ae8bfa",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "func": "const newMsg = {}\nnewMsg.payload = {\n    color: 0x0099ff,\n    title: msg.payload.data.attributes.name,\n    url: 'https://www.battlemetrics.com/servers/scum/'+msg.server,\n    author: {\n        name: 'Battlemetrics',\n        icon_url: 'https://scontent-cpt1-1.xx.fbcdn.net/v/t1.18169-9/13254401_251055025255091_4858501098864636929_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEZZPDxRkTukonmVATKsaMImKV7BI_hvEeYpXsEj-G8R5Y7bO3E2g-cLQwQlgc0Y4k&_nc_ohc=WHfJuoqXp6kAX8J6ryw&_nc_ht=scontent-cpt1-1.xx&oh=6422a34d48a7f8fdf90ef2458438e313&oe=614BE076',\n        url: 'https://www.battlemetrics.com/servers/scum/'+msg.server,\n    },\n    //description: 'Some description here',\n    thumbnail: {\n        url: 'https://cdn.discordapp.com/icons/879633382336761856/f1f72f88edacb727451905c3eeae84c5.png',\n    },\n    fields: [\n        {\n            name: 'Players Online',\n            value: msg.payload.data.attributes.players + \"/64\",\n            inline: true,\n        },\n        {\n            name: 'In-Game Time',\n            value: msg.payload.data.attributes.details.time,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'IP Address',\n            value: msg.payload.data.attributes.ip,\n            inline: true,\n        },\n        {\n            name: 'Port',\n            value: msg.payload.data.attributes.port,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'Server Rank',\n            value: msg.payload.data.attributes.rank,\n            inline: true,\n        },\n        {\n            name: 'Server ID',\n            value: msg.server,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'Game Version',\n            value: msg.payload.data.attributes.details.version,\n            inline: true,\n        },\n    ],\n    image: {\n        url: 'https://cdn.akamai.steamstatic.com/steam/apps/513710/header.jpg',\n    },\n    timestamp: new Date(),\n    footer: {\n        text: \"TEC1 System Bot written and developed by TheKraken_ZA#0001 |\",\n        icon_url: 'https://pbs.twimg.com/profile_images/1363429753970122752/7936_0LC_400x400.jpg',\n    },\n};\nnewMsg.embed = true;\nnewMsg.action = \"edit\";\nnewMsg.channel = msg.channel;\nnewMsg.message = msg.messageID;\nnewMsg.server = msg.server;\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3480,
+        "y": 120,
+        "wires": [
+            [
+                "ceef083bbb5a5882"
+            ]
+        ]
+    },
+    {
+        "id": "b92e4d5a757aa9ee",
+        "type": "comment",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "Send Battlemetrics Embed",
+        "info": "",
+        "x": 2830,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4a1cde2f6c3c5dd3",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "Server Params",
+        "rules": [
+            {
+                "t": "set",
+                "p": "server",
+                "pt": "msg",
+                "to": "BatMetServerID",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "channel",
+                "pt": "msg",
+                "to": "BatMetChannel",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "messageID",
+                "pt": "msg",
+                "to": "BatMetMsgID",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2980,
+        "y": 120,
+        "wires": [
+            [
+                "846b45e89f07638e"
+            ]
+        ]
+    },
+    {
+        "id": "f8bcf518c4d6a0d3",
+        "type": "catch",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 2780,
+        "y": 340,
+        "wires": [
+            [
+                "543d8e64cb8b780e"
+            ]
+        ]
+    },
+    {
+        "id": "543d8e64cb8b780e",
+        "type": "switch",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "property": "error.message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "DiscordAPIError: Unknown Message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "msg.message wasn't set correctly",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 2930,
+        "y": 340,
+        "wires": [
+            [
+                "744cda17e1eef0f0"
+            ],
+            [
+                "744cda17e1eef0f0"
+            ],
+            [
+                "4f6c2a2ec6c139af"
+            ]
+        ]
+    },
+    {
+        "id": "4f6c2a2ec6c139af",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error.message",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2910,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "83ab42e7ccbc87e0",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "func": "const newMsg = {}\nnewMsg.payload = {\n    color: 0x0099ff,\n    title: msg.payload.data.attributes.name,\n    url: 'https://www.battlemetrics.com/servers/scum/'+msg.server,\n    author: {\n        name: 'Battlemetrics',\n        icon_url: 'https://scontent-cpt1-1.xx.fbcdn.net/v/t1.18169-9/13254401_251055025255091_4858501098864636929_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEZZPDxRkTukonmVATKsaMImKV7BI_hvEeYpXsEj-G8R5Y7bO3E2g-cLQwQlgc0Y4k&_nc_ohc=WHfJuoqXp6kAX8J6ryw&_nc_ht=scontent-cpt1-1.xx&oh=6422a34d48a7f8fdf90ef2458438e313&oe=614BE076',\n        url: 'https://www.battlemetrics.com/servers/scum/'+msg.server,\n    },\n    //description: 'Some description here',\n    thumbnail: {\n        url: 'https://cdn.discordapp.com/icons/879633382336761856/f1f72f88edacb727451905c3eeae84c5.png',\n    },\n    fields: [\n        {\n            name: 'Players Online',\n            value: msg.payload.data.attributes.players + \"/64\",\n            inline: true,\n        },\n        {\n            name: 'In-Game Time',\n            value: msg.payload.data.attributes.details.time,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'IP Address',\n            value: msg.payload.data.attributes.ip,\n            inline: true,\n        },\n        {\n            name: 'Port',\n            value: msg.payload.data.attributes.port,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'Server Rank',\n            value: msg.payload.data.attributes.rank,\n            inline: true,\n        },\n        {\n            name: 'Server ID',\n            value: msg.server,\n            inline: true,\n        },\n\t\t{\n\t\t\tname: '\\u200b',\n\t\t\tvalue: '\\u200b',\n\t\t\tinline: true,\n\t\t},\n        {\n            name: 'Game Version',\n            value: msg.payload.data.attributes.details.version,\n            inline: true,\n        },\n    ],\n    image: {\n        url: 'https://cdn.akamai.steamstatic.com/steam/apps/513710/header.jpg',\n    },\n    timestamp: new Date(),\n    footer: {\n        text: \"TEC1 System Bot written and developed by TheKraken_ZA#0001 |\",\n        icon_url: 'https://pbs.twimg.com/profile_images/1363429753970122752/7936_0LC_400x400.jpg',\n    },\n};\nnewMsg.embed = true;\nnewMsg.channel = msg.channel;\nnewMsg.server = msg.server;\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3400,
+        "y": 340,
+        "wires": [
+            [
+                "d24e807803192783"
+            ]
+        ]
+    },
+    {
+        "id": "fb93372f3fa018f2",
+        "type": "json",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 3250,
+        "y": 340,
+        "wires": [
+            [
+                "83ab42e7ccbc87e0"
+            ]
+        ]
+    },
+    {
+        "id": "744cda17e1eef0f0",
+        "type": "http request",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.battlemetrics.com/servers/{{{server}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "bearer",
+        "x": 3090,
+        "y": 340,
+        "wires": [
+            [
+                "fb93372f3fa018f2"
+            ]
+        ]
+    },
+    {
+        "id": "d24e807803192783",
+        "type": "discordMessageManager",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "channel": "",
+        "token": "859dbcb8a11c0bcd",
+        "x": 3610,
+        "y": 340,
+        "wires": [
+            [
+                "bb481680c7838228"
+            ]
+        ]
+    },
+    {
+        "id": "bb481680c7838228",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "",
+        "func": "flow.set(\"BatMetMsgID\", msg.payload.id);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3500,
+        "y": 440,
+        "wires": [
+            [
+                "a3ae95950a9ec97c"
+            ]
+        ]
+    },
+    {
+        "id": "a3ae95950a9ec97c",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "42e0ca0b34b1ace9",
+        "name": "Message not found, created new message.",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msgid",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a0afc63c51e60031",
+        "type": "comment",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "Setup Battlemetrics",
+        "info": "",
+        "x": 2810,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "71b5dff00ed10042",
+        "type": "ui_text_input",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "",
+        "label": "Server ID",
+        "tooltip": "Enter the Battlemetrics Server ID for your server",
+        "group": "cdebc38f99ac001e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2780,
+        "y": 640,
+        "wires": [
+            [
+                "ede91e35096fa18d"
+            ]
+        ]
+    },
+    {
+        "id": "a16c87c58967aa49",
+        "type": "ui_text_input",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "",
+        "label": "Channel ID",
+        "tooltip": "Enter the channel ID of your Battlemetrics Channel",
+        "group": "cdebc38f99ac001e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2790,
+        "y": 680,
+        "wires": [
+            [
+                "d8aec8dbbb245fd8"
+            ]
+        ]
+    },
+    {
+        "id": "eb3658ede499a134",
+        "type": "ui_button",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "Save Channel IDs",
+        "group": "cdebc38f99ac001e",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Save Settings",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2810,
+        "y": 720,
+        "wires": [
+            [
+                "670ab20c8c4c7c26"
+            ]
+        ]
+    },
+    {
+        "id": "ede91e35096fa18d",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "UITempBMServerID",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3040,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8aec8dbbb245fd8",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "UITempBMChannelID",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3050,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "670ab20c8c4c7c26",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "Check user input and construct payload object",
+        "func": "var BMServerID = flow.get(\"UITempBMServerID\");\nvar BMChannelID = flow.get(\"UITempBMChannelID\");\n\nif(!BMServerID){\n    node.error(\"Battlemetrics Server ID is empty\",msg)\n    return null; //halt flow\n}\nif(!BMChannelID){\n    node.error(\"Battlemetrics Channel ID is empty\",msg)\n    return null; //halt flow\n}\n\nmsg.payload = [\n    {\n        \"BMServerID\": BMServerID,\n        \"BMChannelID\": BMChannelID\n    }\n]\n//temporary debug - set payload with string version for demo notification\n\n//msg.payload = \"All fields OK. This is what varbinds contains...\\n\" +  JSON.stringify(msg.varbinds);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3100,
+        "y": 720,
+        "wires": [
+            [
+                "5323bc0b2a2e2691",
+                "9cb5f4eabd6c7153",
+                "f1b7362c3fb12344"
+            ]
+        ]
+    },
+    {
+        "id": "5323bc0b2a2e2691",
+        "type": "ui_toast",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "position": "top right",
+        "displayTime": "4",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 3010,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "9cb5f4eabd6c7153",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "To SNMP (view result in debug window)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3080,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f1b7362c3fb12344",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "0a693ed80d2f4120",
+        "name": "Set Context",
+        "rules": [
+            {
+                "t": "set",
+                "p": "BatMetServerID",
+                "pt": "flow",
+                "to": "payload[0].BMServerID",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "BatMetChannel",
+                "pt": "flow",
+                "to": "payload[0].BMChannelID",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2990,
+        "y": 840,
+        "wires": [
             []
         ]
     }
