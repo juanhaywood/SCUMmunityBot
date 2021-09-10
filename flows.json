@@ -4792,5 +4792,52 @@
         "x": 3360,
         "y": 1780,
         "wires": []
+    },
+    {
+        "id": "e6926d4f7b31fcf6",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "func": "msg.topic = \"ALTER TABLE steamUser ADD lastLogin Numeric;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2890,
+        "y": 2020,
+        "wires": [
+            [
+                "ae718095be210f28"
+            ]
+        ]
+    },
+    {
+        "id": "6e295931f924a7ea",
+        "type": "inject",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 2680,
+        "y": 2020,
+        "wires": [
+            [
+                "e6926d4f7b31fcf6"
+            ]
+        ]
     }
 ]
