@@ -197,11 +197,12 @@
             "71059a572e32d172",
             "b005d7a79f6cc721",
             "ae718095be210f28",
-            "917f0638ce49c2db"
+            "917f0638ce49c2db",
+            "ace7eb5425392eb6"
         ],
         "x": 2554,
         "y": 1739,
-        "w": 672,
+        "w": 972,
         "h": 142
     },
     {
@@ -229,6 +230,216 @@
         "y": 1459,
         "w": 1032,
         "h": 142
+    },
+    {
+        "id": "12435dd0704ed692",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3ec5450e3de943e7",
+            "9d8a4eac85250544",
+            "53ab39c63df549f2",
+            "ef5898da0ef9c5c2",
+            "8f842eea6e492bf6",
+            "30b0f4f49b6f63c7",
+            "03114adbe6c1b33e",
+            "2b1223d5c9b61ea4",
+            "a8611ffabe878ad7",
+            "2ee1aea256edcd58",
+            "1ad79fc4ebe64019",
+            "cd9178a79b592056"
+        ],
+        "x": 374,
+        "y": 2359,
+        "w": 1312,
+        "h": 282
+    },
+    {
+        "id": "6eb98fdfabd2b89e",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "813bac68021bfed6",
+            "ea87bd6a606f75f6",
+            "9aa5a2fe8a44a0c0",
+            "ddfc03d28f1f9009",
+            "5bd1e88bf882bcc0",
+            "01c77a7313acb0ea",
+            "5120d294b5068e8e",
+            "53fc821d9824b0a1",
+            "c57d547bed19c3f2",
+            "09499327219e7895",
+            "a36e2c120de55427",
+            "e5a769887b87fd39"
+        ],
+        "x": 394,
+        "y": 2039,
+        "w": 1312,
+        "h": 282
+    },
+    {
+        "id": "d31b319e0a98a425",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0474690b9176dbe9",
+            "0e3940036aafc2d4",
+            "b7ff86d116d4f268",
+            "c80b73112ee98a88",
+            "ac10961c22adb501",
+            "e951bd47d2b1dbae",
+            "c12c335c04b11519",
+            "0b879b5dec9cb04f",
+            "c505a268bc1f810e",
+            "9f389076a9b6f73f",
+            "2ac83c22d129027e",
+            "3acc0d2a1d6808d1",
+            "5c7d207a44f42aa3",
+            "6b3a7ae32a3b68ce",
+            "33d1d8df9440d575",
+            "c94b0e292a3b7a6b",
+            "a570cdd0a47f576a",
+            "a9aee0e04ee1b5d6",
+            "ef03767471d7eb8c",
+            "5d0e430b6aa8b51f",
+            "33dff353b4411c99",
+            "29ac032cc0751b08",
+            "8719de7f5a89d239",
+            "de211fa98e101295"
+        ],
+        "x": 394,
+        "y": 1339,
+        "w": 1352,
+        "h": 662
+    },
+    {
+        "id": "f13b70955d462e75",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5fa469c2ab046f96",
+            "9fb4aecba586ea44",
+            "84cba5c48008d4e1",
+            "d10b4e684138237a",
+            "0489064d8c34c5e1",
+            "20cd440a60d08f68",
+            "ca97f64c80e03149",
+            "8caf47440d156ec5",
+            "5a19164330c992dd",
+            "546092f6ad7e17ab",
+            "a53dab32327b99ac",
+            "19a5e025f613ecfc",
+            "bf6272bf00ea2bf0",
+            "8e390dd4c4b0c4c3",
+            "c2b7db9fe482082c",
+            "bc96117ebb3a0833"
+        ],
+        "x": 394,
+        "y": 979,
+        "w": 1332,
+        "h": 302
+    },
+    {
+        "id": "b36a1ae7d14f8198",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4859cf46678a4b5e",
+            "569eb3234bd1f82f",
+            "89a1963d01173e5b",
+            "26ed40633166e090",
+            "7406a409407d4cc1",
+            "efb1e6b864de3a4d",
+            "e248c92ab607f364",
+            "cf5549fb5ce0239e",
+            "8215dd1fc9665872",
+            "9cfeebda0480709f",
+            "7e42fa7e035a7f39",
+            "98a83dfabb0e00bb",
+            "437f2ced33b2c09e",
+            "47f3282c27881050"
+        ],
+        "x": 394,
+        "y": 599,
+        "w": 1352,
+        "h": 342
+    },
+    {
+        "id": "f0941043a3857f6f",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9f985aed6da6bbbc",
+            "9d32eeb600c5582b",
+            "869d45dab24ff86b",
+            "75a6bc967f88c7d7",
+            "c55bc81ed0f24540",
+            "c970b3a3074f22f1",
+            "4c3617b480eb4af8",
+            "1dd162805fd28644",
+            "323cedad6446ad7d",
+            "b036a3dd85a75048",
+            "448cccfde3239841",
+            "ae1215d4a6d3581c"
+        ],
+        "x": 394,
+        "y": 279,
+        "w": 1352,
+        "h": 282
     },
     {
         "id": "42a903ea.527e3c",
@@ -386,13 +597,8 @@
     {
         "id": "2118590cbe579670",
         "type": "sqlitedb",
-        "db": "scummunity.db",
+        "db": "/home/juan/.node-red/projects/SCUMmunity-Bot/db/database.db",
         "mode": "RWC"
-    },
-    {
-        "id": "76d038c0.f585a8",
-        "type": "sqlitedb",
-        "db": "test"
     },
     {
         "id": "a3647966f7782168",
@@ -454,6 +660,7 @@
         "id": "9f985aed6da6bbbc",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "func": "msg.admin = msg.admin[msg.admin.length-1];\nmsg.filename = msg.admin.name\n\nreturn msg;",
         "outputs": 1,
@@ -473,6 +680,7 @@
         "id": "9d32eeb600c5582b",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -499,6 +707,7 @@
         "id": "869d45dab24ff86b",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "func": "msg.operation = \"get\";\nmsg.workingDir = flow.get(\"workingDir\");\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"adminloglatest.log\";\nreturn msg;",
         "outputs": 1,
@@ -529,6 +738,7 @@
         "id": "75a6bc967f88c7d7",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "filename": "adminloglatest.log",
         "format": "lines",
@@ -548,6 +758,7 @@
         "id": "c55bc81ed0f24540",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -576,6 +787,7 @@
         "id": "c970b3a3074f22f1",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "rules": [
             {
@@ -617,6 +829,7 @@
         "id": "4c3617b480eb4af8",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "rules": [
             {
@@ -642,6 +855,7 @@
         "id": "1dd162805fd28644",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -662,6 +876,7 @@
         "id": "323cedad6446ad7d",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "Get latest admin log file.",
         "info": "",
         "x": 520,
@@ -675,7 +890,7 @@
         "name": "Send Discord Message",
         "channel": "",
         "token": "859dbcb8a11c0bcd",
-        "x": 2170,
+        "x": 2070,
         "y": 1700,
         "wires": [
             []
@@ -685,6 +900,7 @@
         "id": "b036a3dd85a75048",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -704,6 +920,7 @@
         "id": "448cccfde3239841",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "Format Message - Admin",
         "func": "var a = msg.payload\n\nvar time = a.substr(0, 19);\nvar ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nvar name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nvar command = a.substring(a.indexOf(\"Command: '\")+10, a.lastIndexOf(\"'\"));\n\nmsg.payload = \"```yaml\\nTime: [\" + time + \"] ID: [\" + ID + \"] Name: [\" + name + \"] Command: [\" + command + \"]\\n```\";\n\nmsg.channel = flow.get(\"channelIDAdmin\");\nreturn msg;",
         "outputs": 1,
@@ -724,6 +941,7 @@
         "id": "ae1215d4a6d3581c",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "f0941043a3857f6f",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -757,6 +975,7 @@
         "id": "4859cf46678a4b5e",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "func": "msg.chat = msg.chat[msg.chat.length-1];\nmsg.filename = msg.chat.name\n\nreturn msg;",
         "outputs": 1,
@@ -765,7 +984,7 @@
         "finalize": "",
         "libs": [],
         "x": 480,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "89a1963d01173e5b"
@@ -776,6 +995,7 @@
         "id": "569eb3234bd1f82f",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -791,7 +1011,7 @@
         "showError": true,
         "name": "",
         "x": 800,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "26ed40633166e090"
@@ -802,15 +1022,16 @@
         "id": "89a1963d01173e5b",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = \"165.73.241.82_7000/\"+msg.filename;\nmsg.localFilename = \"chatloglatest.log\";\nreturn msg;",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"chatloglatest.log\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 640,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "569eb3234bd1f82f"
@@ -821,6 +1042,7 @@
         "id": "26ed40633166e090",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "filename": "chatloglatest.log",
         "format": "lines",
@@ -829,7 +1051,7 @@
         "encoding": "utf-16le",
         "allProps": true,
         "x": 980,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "7406a409407d4cc1"
@@ -840,6 +1062,7 @@
         "id": "7406a409407d4cc1",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -857,7 +1080,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 1170,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "efb1e6b864de3a4d"
@@ -868,6 +1091,7 @@
         "id": "efb1e6b864de3a4d",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "rules": [
             {
@@ -898,7 +1122,7 @@
         "to": "",
         "reg": false,
         "x": 1360,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "e248c92ab607f364"
@@ -909,6 +1133,7 @@
         "id": "47f3282c27881050",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "rules": [
             {
@@ -925,7 +1150,7 @@
         "to": "",
         "reg": false,
         "x": 830,
-        "y": 860,
+        "y": 900,
         "wires": [
             []
         ]
@@ -934,6 +1159,7 @@
         "id": "e248c92ab607f364",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -943,7 +1169,7 @@
         "outputType": "msg",
         "output": "payload",
         "x": 1570,
-        "y": 660,
+        "y": 700,
         "wires": [
             [
                 "9cfeebda0480709f"
@@ -954,16 +1180,18 @@
         "id": "cf5549fb5ce0239e",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "Get latest chat log file.",
         "info": "",
         "x": 520,
-        "y": 600,
+        "y": 640,
         "wires": []
     },
     {
         "id": "8215dd1fc9665872",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -972,7 +1200,7 @@
         "stream": false,
         "addname": "",
         "x": 610,
-        "y": 740,
+        "y": 780,
         "wires": [
             [
                 "47f3282c27881050",
@@ -984,6 +1212,7 @@
         "id": "9cfeebda0480709f",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -1003,7 +1232,7 @@
         "repair": false,
         "outputs": 2,
         "x": 470,
-        "y": 740,
+        "y": 780,
         "wires": [
             [
                 "8215dd1fc9665872"
@@ -1017,6 +1246,7 @@
         "id": "5fa469c2ab046f96",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "func": "msg.kill = msg.kill[msg.kill.length-1];\nmsg.filename = msg.kill.name\n\nreturn msg;",
         "outputs": 1,
@@ -1025,7 +1255,7 @@
         "finalize": "",
         "libs": [],
         "x": 480,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "84cba5c48008d4e1"
@@ -1036,6 +1266,7 @@
         "id": "9fb4aecba586ea44",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -1051,7 +1282,7 @@
         "showError": true,
         "name": "",
         "x": 800,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "d10b4e684138237a"
@@ -1062,15 +1293,16 @@
         "id": "84cba5c48008d4e1",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = \"165.73.241.82_7000/\"+msg.filename;\nmsg.localFilename = \"killloglatest.log\";\nreturn msg;",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"killloglatest.log\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 640,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "9fb4aecba586ea44"
@@ -1081,6 +1313,7 @@
         "id": "d10b4e684138237a",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "filename": "killloglatest.log",
         "format": "lines",
@@ -1089,7 +1322,7 @@
         "encoding": "utf-16le",
         "allProps": true,
         "x": 980,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "0489064d8c34c5e1"
@@ -1100,6 +1333,7 @@
         "id": "0489064d8c34c5e1",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -1117,7 +1351,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 1170,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "20cd440a60d08f68"
@@ -1128,6 +1362,7 @@
         "id": "20cd440a60d08f68",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "rules": [
             {
@@ -1158,7 +1393,7 @@
         "to": "",
         "reg": false,
         "x": 1360,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "8caf47440d156ec5"
@@ -1169,6 +1404,7 @@
         "id": "ca97f64c80e03149",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "rules": [
             {
@@ -1185,7 +1421,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 1120,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -1194,6 +1430,7 @@
         "id": "8caf47440d156ec5",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -1203,7 +1440,7 @@
         "outputType": "msg",
         "output": "payload",
         "x": 1570,
-        "y": 980,
+        "y": 1080,
         "wires": [
             [
                 "a53dab32327b99ac"
@@ -1214,16 +1451,18 @@
         "id": "5a19164330c992dd",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "Get latest kill log file.",
         "info": "",
         "x": 510,
-        "y": 920,
+        "y": 1020,
         "wires": []
     },
     {
         "id": "546092f6ad7e17ab",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1232,7 +1471,7 @@
         "stream": false,
         "addname": "",
         "x": 610,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "ca97f64c80e03149",
@@ -1244,6 +1483,7 @@
         "id": "a53dab32327b99ac",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -1263,7 +1503,7 @@
         "repair": false,
         "outputs": 2,
         "x": 470,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "546092f6ad7e17ab"
@@ -1277,6 +1517,7 @@
         "id": "0474690b9176dbe9",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "func": "msg.login = msg.login[msg.login.length-1];\nmsg.filename = msg.login.name\n\nreturn msg;",
         "outputs": 1,
@@ -1284,8 +1525,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 1300,
+        "x": 500,
+        "y": 1440,
         "wires": [
             [
                 "b7ff86d116d4f268"
@@ -1296,6 +1537,7 @@
         "id": "0e3940036aafc2d4",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -1310,8 +1552,8 @@
         "throwError": true,
         "showError": true,
         "name": "",
-        "x": 800,
-        "y": 1300,
+        "x": 820,
+        "y": 1440,
         "wires": [
             [
                 "c80b73112ee98a88"
@@ -1322,15 +1564,16 @@
         "id": "b7ff86d116d4f268",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = \"165.73.241.82_7000/\"+msg.filename;\nmsg.localFilename = \"loginloglatest.log\";\nreturn msg;",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"loginloglatest.log\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 1300,
+        "x": 660,
+        "y": 1440,
         "wires": [
             [
                 "0e3940036aafc2d4"
@@ -1341,6 +1584,7 @@
         "id": "c80b73112ee98a88",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "filename": "loginloglatest.log",
         "format": "lines",
@@ -1348,8 +1592,8 @@
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 990,
-        "y": 1300,
+        "x": 1010,
+        "y": 1440,
         "wires": [
             [
                 "ac10961c22adb501"
@@ -1360,6 +1604,7 @@
         "id": "ac10961c22adb501",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -1376,8 +1621,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1170,
-        "y": 1300,
+        "x": 1190,
+        "y": 1440,
         "wires": [
             [
                 "e951bd47d2b1dbae"
@@ -1388,6 +1633,7 @@
         "id": "e951bd47d2b1dbae",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "rules": [
             {
@@ -1417,8 +1663,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 1300,
+        "x": 1380,
+        "y": 1440,
         "wires": [
             [
                 "0b879b5dec9cb04f"
@@ -1429,6 +1675,7 @@
         "id": "c12c335c04b11519",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "rules": [
             {
@@ -1444,8 +1691,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 500,
-        "y": 1460,
+        "x": 520,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -1454,6 +1701,7 @@
         "id": "0b879b5dec9cb04f",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -1462,8 +1710,8 @@
         "func": "-",
         "outputType": "msg",
         "output": "payload",
-        "x": 1570,
-        "y": 1300,
+        "x": 1590,
+        "y": 1440,
         "wires": [
             [
                 "2ac83c22d129027e"
@@ -1474,16 +1722,18 @@
         "id": "c505a268bc1f810e",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Get latest login log file.",
         "info": "",
-        "x": 520,
-        "y": 1240,
+        "x": 540,
+        "y": 1380,
         "wires": []
     },
     {
         "id": "9f389076a9b6f73f",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1491,8 +1741,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 610,
-        "y": 1380,
+        "x": 630,
+        "y": 1520,
         "wires": [
             [
                 "c12c335c04b11519",
@@ -1504,6 +1754,7 @@
         "id": "2ac83c22d129027e",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -1522,8 +1773,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 470,
-        "y": 1380,
+        "x": 490,
+        "y": 1520,
         "wires": [
             [
                 "9f389076a9b6f73f"
@@ -1537,6 +1788,7 @@
         "id": "813bac68021bfed6",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "func": "msg.mines = msg.mines[msg.mines.length-1];\nmsg.filename = msg.mines.name\n\nreturn msg;",
         "outputs": 1,
@@ -1556,6 +1808,7 @@
         "id": "ea87bd6a606f75f6",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -1582,8 +1835,9 @@
         "id": "9aa5a2fe8a44a0c0",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = \"165.73.241.82_7000/\"+msg.filename;\nmsg.localFilename = \"minesloglatest.log\";\nreturn msg;",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"minesloglatest.log\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1601,6 +1855,7 @@
         "id": "ddfc03d28f1f9009",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "filename": "minesloglatest.log",
         "format": "lines",
@@ -1620,6 +1875,7 @@
         "id": "5bd1e88bf882bcc0",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -1648,6 +1904,7 @@
         "id": "01c77a7313acb0ea",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "rules": [
             {
@@ -1689,6 +1946,7 @@
         "id": "5120d294b5068e8e",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "rules": [
             {
@@ -1714,6 +1972,7 @@
         "id": "53fc821d9824b0a1",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -1734,6 +1993,7 @@
         "id": "c57d547bed19c3f2",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "Get latest mines log file.",
         "info": "",
         "x": 520,
@@ -1744,6 +2004,7 @@
         "id": "09499327219e7895",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1764,6 +2025,7 @@
         "id": "a36e2c120de55427",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -1797,6 +2059,7 @@
         "id": "3ec5450e3de943e7",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "func": "msg.violations = msg.violations[msg.violations.length-1];\nmsg.filename = msg.violations.name\n\nreturn msg;",
         "outputs": 1,
@@ -1816,6 +2079,7 @@
         "id": "9d8a4eac85250544",
         "type": "advanced-ftp",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "ftp": "42a903ea.527e3c",
         "operation": "status",
         "dataType": "ascii",
@@ -1842,8 +2106,9 @@
         "id": "53ab39c63df549f2",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = \"165.73.241.82_7000/\"+msg.filename;\nmsg.localFilename = \"violationsloglatest.log\";\nreturn msg;",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"violationsloglatest.log\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1861,6 +2126,7 @@
         "id": "ef5898da0ef9c5c2",
         "type": "file in",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "filename": "violationsloglatest.log",
         "format": "lines",
@@ -1880,6 +2146,7 @@
         "id": "8f842eea6e492bf6",
         "type": "join",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "mode": "custom",
         "build": "array",
@@ -1908,6 +2175,7 @@
         "id": "30b0f4f49b6f63c7",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "rules": [
             {
@@ -1949,6 +2217,7 @@
         "id": "03114adbe6c1b33e",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "rules": [
             {
@@ -1974,6 +2243,7 @@
         "id": "2b1223d5c9b61ea4",
         "type": "differences",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "leftInput": "left",
         "leftInputType": "msg",
@@ -1994,6 +2264,7 @@
         "id": "a8611ffabe878ad7",
         "type": "comment",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "Get latest violations log file.",
         "info": "",
         "x": 510,
@@ -2004,6 +2275,7 @@
         "id": "2ee1aea256edcd58",
         "type": "split",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -2024,6 +2296,7 @@
         "id": "1ad79fc4ebe64019",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -2082,6 +2355,7 @@
         "id": "7e42fa7e035a7f39",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "Format message - chat",
         "func": "var a = msg.payload;\nconst newMsg = {};\n\nnewMsg.time = a.substr(0, 19);\nnewMsg.ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nnewMsg.name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nnewMsg.msgType = a.substring(a.indexOf(\")' '\")+4, a.indexOf(\":\",a.indexOf(\")' '\")+1));\nnewMsg.message = a.substring(a.indexOf(\"' '\" + newMsg.msgType + \": \"), a.lastIndexOf(\"'\"));\nnewMsg.message = newMsg.message.replace(\"' '\"+newMsg.msgType+\": \",\"\");\n\nif (newMsg.msgType == \"Global\") {\n  newMsg.payload = \"```md\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else if (newMsg.msgType == \"Local\"){\n    newMsg.payload = \"```\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else {\n    newMsg.payload = \"```diff\\n! Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n}\n\nnewMsg.channel = flow.get(\"channelIDChat\");\nreturn newMsg;",
         "outputs": 1,
@@ -2090,7 +2364,7 @@
         "finalize": "",
         "libs": [],
         "x": 1610,
-        "y": 740,
+        "y": 780,
         "wires": [
             [
                 "98a83dfabb0e00bb",
@@ -2102,6 +2376,7 @@
         "id": "98a83dfabb0e00bb",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "property": "msgType",
         "propertyType": "msg",
@@ -2116,7 +2391,7 @@
         "repair": false,
         "outputs": 1,
         "x": 790,
-        "y": 800,
+        "y": 840,
         "wires": [
             [
                 "437f2ced33b2c09e"
@@ -3244,6 +3519,7 @@
         "id": "437f2ced33b2c09e",
         "type": "change",
         "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
         "name": "",
         "rules": [
             {
@@ -3260,7 +3536,7 @@
         "to": "",
         "reg": false,
         "x": 1620,
-        "y": 800,
+        "y": 840,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -3271,6 +3547,7 @@
         "id": "19a5e025f613ecfc",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "Format message - PvP",
         "func": "msg.channel = flow.get(\"channelIDPvP\");\nreturn msg;",
         "outputs": 1,
@@ -3279,7 +3556,7 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 1140,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -3288,6 +3565,7 @@
         "id": "e5a769887b87fd39",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "6eb98fdfabd2b89e",
         "name": "Format message - mines",
         "func": "msg.channel = flow.get(\"channelIDMines\");\nreturn msg;",
         "outputs": 1,
@@ -3307,6 +3585,7 @@
         "id": "cd9178a79b592056",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "12435dd0704ed692",
         "name": "Format message - violations",
         "func": "msg.channel = flow.get(\"channelIDViolations\");\nreturn msg;",
         "outputs": 1,
@@ -3326,6 +3605,7 @@
         "id": "bf6272bf00ea2bf0",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -3340,7 +3620,7 @@
         "repair": false,
         "outputs": 1,
         "x": 750,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "8e390dd4c4b0c4c3"
@@ -3351,6 +3631,7 @@
         "id": "8e390dd4c4b0c4c3",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "Convert Kill Message to Object",
         "func": "let str = msg.payload;\nlet n = 21;\n \nstr = str.substring(n);\n\nmsg.payload = str;\nreturn msg;",
         "outputs": 1,
@@ -3359,7 +3640,7 @@
         "finalize": "",
         "libs": [],
         "x": 950,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "c2b7db9fe482082c"
@@ -3370,12 +3651,13 @@
         "id": "c2b7db9fe482082c",
         "type": "json",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "",
         "property": "payload",
         "action": "",
         "pretty": false,
         "x": 1170,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "bc96117ebb3a0833"
@@ -3386,6 +3668,7 @@
         "id": "bc96117ebb3a0833",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
         "name": "Format message - kill",
         "func": "msg.payload = \"```yaml\\nKiller: [\" +  msg.payload.Killer.ProfileName + \"] Victim: [\" + msg.payload.Victim.ProfileName + \"] Weapon: [\" + msg.payload.Weapon + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDKill\");\nreturn msg;",
         "outputs": 1,
@@ -3394,7 +3677,7 @@
         "finalize": "",
         "libs": [],
         "x": 1600,
-        "y": 1060,
+        "y": 1160,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -3561,6 +3844,7 @@
         "id": "3acc0d2a1d6808d1",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Login OR Logout?",
         "property": "payload",
         "propertyType": "msg",
@@ -3579,8 +3863,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
-        "y": 1660,
+        "x": 550,
+        "y": 1800,
         "wires": [
             [
                 "5c7d207a44f42aa3"
@@ -3594,6 +3878,7 @@
         "id": "5c7d207a44f42aa3",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Create Login Object",
         "func": "var a = msg.payload;\nconst login = {};\nlogin.time = {};\nlogin.player = {};\n\nlogin.time.year = a.substr(0, 4);\nlogin.time.month = a.substr(5, 2);\nlogin.time.day = a.substr(8, 2);\nlogin.time.hour = a.substr(11, 2);\nlogin.time.minute = a.substr(14, 2);\nlogin.time.second = a.substr(17, 2);\n\nvar playerdetails = a.substr(a.indexOf(\"'\")+1, ((a.indexOf(\"'\", a.indexOf(\"'\")+1)) - (a.indexOf(\"'\")+1))+1); //can add lastindexof to simplify\nlogin.player.ip = playerdetails.substr(0, playerdetails.indexOf(\" \"));\nlogin.player.steamid = playerdetails.substr(playerdetails.indexOf(\" \")+1, (playerdetails.indexOf(\":\")-playerdetails.indexOf(\" \")-1));\nlogin.player.scumname = playerdetails.substr(playerdetails.indexOf(\":\")+1, (playerdetails.lastIndexOf(\"(\")-playerdetails.indexOf(\":\")-1));\nlogin.player.scumid = playerdetails.substr(playerdetails.lastIndexOf(\"(\")+1, (playerdetails.lastIndexOf(\")\")-playerdetails.lastIndexOf(\"(\")-1));\n\nreturn login;",
         "outputs": 1,
@@ -3601,8 +3886,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 1440,
+        "x": 840,
+        "y": 1580,
         "wires": [
             [
                 "6b3a7ae32a3b68ce"
@@ -4233,6 +4518,7 @@
         "id": "6b3a7ae32a3b68ce",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Check if New Steam User",
         "func": "msg.topic = \"SELECT * FROM steamUser WHERE steamId = \" + msg.player.steamid\nreturn msg;",
         "outputs": 1,
@@ -4240,8 +4526,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 1440,
+        "x": 1110,
+        "y": 1580,
         "wires": [
             [
                 "33d1d8df9440d575"
@@ -4252,12 +4538,13 @@
         "id": "33d1d8df9440d575",
         "type": "sqlite",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "mydb": "2118590cbe579670",
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 820,
-        "y": 1540,
+        "x": 840,
+        "y": 1680,
         "wires": [
             [
                 "c94b0e292a3b7a6b"
@@ -4268,6 +4555,7 @@
         "id": "c94b0e292a3b7a6b",
         "type": "switch",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "",
         "property": "payload.length",
         "propertyType": "msg",
@@ -4284,8 +4572,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 990,
-        "y": 1540,
+        "x": 1010,
+        "y": 1680,
         "wires": [
             [
                 "a570cdd0a47f576a"
@@ -4299,6 +4587,7 @@
         "id": "a570cdd0a47f576a",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Create New Steam User",
         "func": "msg.topic = \"INSERT INTO steamUser(steamId, scumName, ipAddress, scumId) values(\" + msg.player.steamid + \", '\" + msg.player.scumname +\"', '\" + msg.player.ip + \"', \" + msg.player.scumid + \")\";\nreturn msg;",
         "outputs": 1,
@@ -4306,8 +4595,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1170,
-        "y": 1520,
+        "x": 1190,
+        "y": 1660,
         "wires": [
             [
                 "a9aee0e04ee1b5d6"
@@ -4318,12 +4607,13 @@
         "id": "a9aee0e04ee1b5d6",
         "type": "sqlite",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "mydb": "2118590cbe579670",
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 1400,
-        "y": 1520,
+        "x": 1420,
+        "y": 1660,
         "wires": [
             [
                 "29ac032cc0751b08"
@@ -4334,6 +4624,7 @@
         "id": "ef03767471d7eb8c",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Create Logout Object",
         "func": "var a = msg.payload;\nconst logout = {};\nlogout.time = {};\nlogout.player = {};\n\nlogout.time.year = a.substr(0, 4);\nlogout.time.month = a.substr(5, 2);\nlogout.time.day = a.substr(8, 2);\nlogout.time.hour = a.substr(11, 2);\nlogout.time.minute = a.substr(14, 2);\nlogout.time.second = a.substr(17, 2);\n\nlogout.player.scumid = a.substr(a.indexOf(\"'\")+1, ((a.indexOf(\"'\", a.indexOf(\"'\")+1)) - (a.indexOf(\"'\")+1))); //can add lastindexof to simplify\n\nreturn logout;\n\n\n//2021.09.09-14.38.56: '89' logging out",
         "outputs": 1,
@@ -4341,8 +4632,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
-        "y": 1820,
+        "x": 760,
+        "y": 1960,
         "wires": [
             [
                 "5d0e430b6aa8b51f"
@@ -4353,6 +4644,7 @@
         "id": "5d0e430b6aa8b51f",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "Fetch Steam User Logging Out",
         "func": "msg.topic = \"SELECT * FROM steamUser WHERE scumId = \" + msg.player.scumid;\nreturn msg;",
         "outputs": 1,
@@ -4360,8 +4652,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
-        "y": 1820,
+        "x": 1030,
+        "y": 1960,
         "wires": [
             [
                 "33dff353b4411c99"
@@ -4372,12 +4664,13 @@
         "id": "33dff353b4411c99",
         "type": "sqlite",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "mydb": "2118590cbe579670",
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 1260,
-        "y": 1820,
+        "x": 1280,
+        "y": 1960,
         "wires": [
             [
                 "8719de7f5a89d239"
@@ -4388,6 +4681,7 @@
         "id": "29ac032cc0751b08",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "format login message (New Player)",
         "func": "msg.payload = \"```diff\\n+login Time: [\" + msg.time.hour + \":\" + msg.time.minute + \":\" + msg.time.second + \"] ID: [\" + msg.player.steamid + \"] Name: [\" + msg.player.scumname + \"] [THIS IS A NEW PLAYER]\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
         "outputs": 1,
@@ -4395,8 +4689,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 1620,
+        "x": 1560,
+        "y": 1760,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -4407,6 +4701,7 @@
         "id": "8719de7f5a89d239",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "format logout message",
         "func": "msg.payload = \"```diff\\n-logout Time: [\" + msg.time.hour + \":\" + msg.time.minute + \":\" + msg.time.second + \"] ID: [\" + msg.payload[0].steamId + \"] Name: [\" + msg.payload[0].scumName + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
         "outputs": 1,
@@ -4414,8 +4709,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1700,
+        "x": 1520,
+        "y": 1840,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -4426,6 +4721,7 @@
         "id": "de211fa98e101295",
         "type": "function",
         "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
         "name": "format login message (Existing Player)",
         "func": "msg.payload = \"```diff\\n+login Time: [\" + msg.time.hour + \":\" + msg.time.minute + \":\" + msg.time.second + \"] ID: [\" + msg.player.steamid + \"] Name: [\" + msg.player.scumname + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
         "outputs": 1,
@@ -4433,8 +4729,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1550,
-        "y": 1660,
+        "x": 1570,
+        "y": 1800,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -4450,10 +4746,12 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 3120,
+        "x": 3270,
         "y": 1840,
         "wires": [
-            []
+            [
+                "ace7eb5425392eb6"
+            ]
         ]
     },
     {
@@ -4476,6 +4774,23 @@
         "info": "",
         "x": 2670,
         "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "ace7eb5425392eb6",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "59f969dbefde3c20",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3360,
+        "y": 1780,
         "wires": []
     }
 ]
