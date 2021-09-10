@@ -1,7 +1,7 @@
 # SCUMmunity-Bot
 Open-source bot for the SCUM Community
 
-# Discord
+## Discord
 https://discord.gg/yszCqqA3n8
 
 ## Features: 
