@@ -7,6 +7,8 @@ https://discord.gg/yszCqqA3n8
 ## Features: 
 Stream server logs to Discord
 
+Send messages and commands to the SCUM Game via the Bot Client application: https://github.com/juanhaywood/SCUMmunityBotClient
+
 ![image](https://user-images.githubusercontent.com/53084642/132686470-9b4d04a1-495e-463b-a4e8-283a8a630cea.png)
 
 ![image](https://user-images.githubusercontent.com/53084642/132687074-eacec418-bd61-4870-ae7f-eb237c272789.png)
