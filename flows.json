@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "cf6783623c678570",
+        "type": "tab",
+        "label": "TCP Handler",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "3af95fce94a57f18",
         "type": "group",
         "z": "e7c83390c801a80d",
@@ -148,7 +155,7 @@
         "x": 2694,
         "y": 539,
         "w": 612,
-        "h": 342
+        "h": 382
     },
     {
         "id": "f0dc09849048ecc9",
@@ -224,12 +231,14 @@
             "6aeca8586a5c8981",
             "cf0605e75fcda16a",
             "74e39d3374c18a3b",
-            "e20fadcb84b3af7e"
+            "e20fadcb84b3af7e",
+            "1042a32bc4cf0ffd",
+            "ac0107e358a6549f"
         ],
         "x": 2554,
-        "y": 1459,
-        "w": 1032,
-        "h": 142
+        "y": 1559,
+        "w": 1042,
+        "h": 162
     },
     {
         "id": "12435dd0704ed692",
@@ -376,40 +385,6 @@
         "h": 302
     },
     {
-        "id": "b36a1ae7d14f8198",
-        "type": "group",
-        "z": "e7c83390c801a80d",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "4859cf46678a4b5e",
-            "569eb3234bd1f82f",
-            "89a1963d01173e5b",
-            "26ed40633166e090",
-            "7406a409407d4cc1",
-            "efb1e6b864de3a4d",
-            "e248c92ab607f364",
-            "cf5549fb5ce0239e",
-            "8215dd1fc9665872",
-            "9cfeebda0480709f",
-            "7e42fa7e035a7f39",
-            "98a83dfabb0e00bb",
-            "437f2ced33b2c09e",
-            "47f3282c27881050"
-        ],
-        "x": 394,
-        "y": 599,
-        "w": 1352,
-        "h": 342
-    },
-    {
         "id": "f0941043a3857f6f",
         "type": "group",
         "z": "e7c83390c801a80d",
@@ -440,6 +415,100 @@
         "y": 279,
         "w": 1352,
         "h": 282
+    },
+    {
+        "id": "b36a1ae7d14f8198",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4859cf46678a4b5e",
+            "569eb3234bd1f82f",
+            "89a1963d01173e5b",
+            "26ed40633166e090",
+            "7406a409407d4cc1",
+            "efb1e6b864de3a4d",
+            "e248c92ab607f364",
+            "cf5549fb5ce0239e",
+            "8215dd1fc9665872",
+            "9cfeebda0480709f",
+            "7e42fa7e035a7f39",
+            "98a83dfabb0e00bb",
+            "437f2ced33b2c09e",
+            "47f3282c27881050",
+            "0249fbf976c5684c"
+        ],
+        "x": 394,
+        "y": 599,
+        "w": 1322,
+        "h": 342
+    },
+    {
+        "id": "c58defa34619bed1",
+        "type": "group",
+        "z": "cf6783623c678570",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f571a701c8eade82",
+            "59708558768acf73",
+            "960ffb812b58175a",
+            "3ef4329bf93ca1c4",
+            "e115397606bcc015",
+            "d6bad227728d6424",
+            "b16da2cc36bc87a7",
+            "53538e4aa10c3508",
+            "a3ef228f3ea0197d",
+            "87ac5c256773c365",
+            "42b4bd72e9117726"
+        ],
+        "x": 114,
+        "y": 19,
+        "w": 872,
+        "h": 222
+    },
+    {
+        "id": "d3b5dcf1216195f0",
+        "type": "group",
+        "z": "e7c83390c801a80d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b2ef73b93b171a38",
+            "a040e13d90ebba7e",
+            "43bd6aaf8c6a93a7",
+            "700b0a18f669792e",
+            "33c05c3ed8549326",
+            "f984d2b7c6e0d1b2",
+            "265d3eb51e402107",
+            "e7bddbf4147893d6"
+        ],
+        "x": 1914,
+        "y": 1179,
+        "w": 652,
+        "h": 342
     },
     {
         "id": "42a903ea.527e3c",
@@ -599,6 +668,33 @@
         "type": "sqlitedb",
         "db": "scummunity.db",
         "mode": "RWC"
+    },
+    {
+        "id": "962a60d0.15aec8",
+        "type": "mqtt-broker",
+        "broker": "iot",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "5fe617e0c367d2ea",
+        "type": "ui_group",
+        "name": "Bot Steam ID",
+        "tab": "71435652b50b9e7f",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
     },
     {
         "id": "a3647966f7782168",
@@ -968,277 +1064,6 @@
             ],
             [
                 "4c3617b480eb4af8"
-            ]
-        ]
-    },
-    {
-        "id": "4859cf46678a4b5e",
-        "type": "function",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "func": "msg.chat = msg.chat[msg.chat.length-1];\nmsg.filename = msg.chat.name\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 700,
-        "wires": [
-            [
-                "89a1963d01173e5b"
-            ]
-        ]
-    },
-    {
-        "id": "569eb3234bd1f82f",
-        "type": "advanced-ftp",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "ftp": "42a903ea.527e3c",
-        "operation": "status",
-        "dataType": "ascii",
-        "filename": "",
-        "localFilename": "adminlogs.log",
-        "workingDir": "",
-        "oldPath": "",
-        "newPath": "",
-        "command": "",
-        "recursive": false,
-        "useCompression": false,
-        "throwError": true,
-        "showError": true,
-        "name": "",
-        "x": 800,
-        "y": 700,
-        "wires": [
-            [
-                "26ed40633166e090"
-            ]
-        ]
-    },
-    {
-        "id": "89a1963d01173e5b",
-        "type": "function",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"chatloglatest.log\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 700,
-        "wires": [
-            [
-                "569eb3234bd1f82f"
-            ]
-        ]
-    },
-    {
-        "id": "26ed40633166e090",
-        "type": "file in",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "filename": "chatloglatest.log",
-        "format": "lines",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "utf-16le",
-        "allProps": true,
-        "x": 980,
-        "y": 700,
-        "wires": [
-            [
-                "7406a409407d4cc1"
-            ]
-        ]
-    },
-    {
-        "id": "7406a409407d4cc1",
-        "type": "join",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1170,
-        "y": 700,
-        "wires": [
-            [
-                "efb1e6b864de3a4d"
-            ]
-        ]
-    },
-    {
-        "id": "efb1e6b864de3a4d",
-        "type": "change",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "newchatlogs",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "left",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "right",
-                "pt": "msg",
-                "to": "oldchatlogs",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1360,
-        "y": 700,
-        "wires": [
-            [
-                "e248c92ab607f364"
-            ]
-        ]
-    },
-    {
-        "id": "47f3282c27881050",
-        "type": "change",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "oldchatlogs",
-                "pt": "flow",
-                "to": "newchatlogs",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e248c92ab607f364",
-        "type": "differences",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "leftInput": "left",
-        "leftInputType": "msg",
-        "rightInput": "right",
-        "rightInputType": "msg",
-        "func": "-",
-        "outputType": "msg",
-        "output": "payload",
-        "x": 1570,
-        "y": 700,
-        "wires": [
-            [
-                "9cfeebda0480709f"
-            ]
-        ]
-    },
-    {
-        "id": "cf5549fb5ce0239e",
-        "type": "comment",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "Get latest chat log file.",
-        "info": "",
-        "x": 520,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "8215dd1fc9665872",
-        "type": "split",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "x": 610,
-        "y": 780,
-        "wires": [
-            [
-                "47f3282c27881050",
-                "7e42fa7e035a7f39"
-            ]
-        ]
-    },
-    {
-        "id": "9cfeebda0480709f",
-        "type": "switch",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "property": "payload.length",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "lt",
-                "v": "100",
-                "vt": "str"
-            },
-            {
-                "t": "gt",
-                "v": "100",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 470,
-        "y": 780,
-        "wires": [
-            [
-                "8215dd1fc9665872"
-            ],
-            [
-                "47f3282c27881050"
             ]
         ]
     },
@@ -2343,58 +2168,11 @@
         "wires": [
             [
                 "9f985aed6da6bbbc",
-                "4859cf46678a4b5e",
                 "5fa469c2ab046f96",
                 "0474690b9176dbe9",
                 "813bac68021bfed6",
-                "3ec5450e3de943e7"
-            ]
-        ]
-    },
-    {
-        "id": "7e42fa7e035a7f39",
-        "type": "function",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "Format message - chat",
-        "func": "var a = msg.payload;\nconst newMsg = {};\n\nnewMsg.time = a.substr(0, 19);\nnewMsg.ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nnewMsg.name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nnewMsg.msgType = a.substring(a.indexOf(\")' '\")+4, a.indexOf(\":\",a.indexOf(\")' '\")+1));\nnewMsg.message = a.substring(a.indexOf(\"' '\" + newMsg.msgType + \": \"), a.lastIndexOf(\"'\"));\nnewMsg.message = newMsg.message.replace(\"' '\"+newMsg.msgType+\": \",\"\");\n\nif (newMsg.msgType == \"Global\") {\n  newMsg.payload = \"```md\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else if (newMsg.msgType == \"Local\"){\n    newMsg.payload = \"```\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else {\n    newMsg.payload = \"```diff\\n! Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n}\n\nnewMsg.channel = flow.get(\"channelIDChat\");\nreturn newMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1610,
-        "y": 780,
-        "wires": [
-            [
-                "98a83dfabb0e00bb",
-                "bd24a9a6886cabfe"
-            ]
-        ]
-    },
-    {
-        "id": "98a83dfabb0e00bb",
-        "type": "switch",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "property": "msgType",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Global",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 790,
-        "y": 840,
-        "wires": [
-            [
-                "437f2ced33b2c09e"
+                "3ec5450e3de943e7",
+                "4859cf46678a4b5e"
             ]
         ]
     },
@@ -3498,7 +3276,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2370,
+        "x": 2330,
         "y": 1120,
         "wires": [
             []
@@ -3514,34 +3292,6 @@
         "x": 2020,
         "y": 580,
         "wires": []
-    },
-    {
-        "id": "437f2ced33b2c09e",
-        "type": "change",
-        "z": "e7c83390c801a80d",
-        "g": "b36a1ae7d14f8198",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "channel",
-                "pt": "msg",
-                "to": "channelIDGlobalChat",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1620,
-        "y": 840,
-        "wires": [
-            [
-                "bd24a9a6886cabfe"
-            ]
-        ]
     },
     {
         "id": "19a5e025f613ecfc",
@@ -3737,7 +3487,7 @@
         "name": "Receive commands",
         "token": "859dbcb8a11c0bcd",
         "x": 2670,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "894a0b3429653a6e"
@@ -3755,7 +3505,7 @@
         "rules": [
             {
                 "t": "cont",
-                "v": "!",
+                "v": "$",
                 "vt": "str"
             }
         ],
@@ -3763,7 +3513,7 @@
         "repair": false,
         "outputs": 1,
         "x": 2880,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "74e39d3374c18a3b"
@@ -3781,7 +3531,7 @@
         "rules": [
             {
                 "t": "cont",
-                "v": "register",
+                "v": "sendMessage",
                 "vt": "str"
             }
         ],
@@ -3789,10 +3539,11 @@
         "repair": false,
         "outputs": 1,
         "x": 3210,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
-                "cf0605e75fcda16a"
+                "cf0605e75fcda16a",
+                "1042a32bc4cf0ffd"
             ]
         ]
     },
@@ -3810,8 +3561,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3490,
-        "y": 1560,
+        "x": 3270,
+        "y": 1600,
         "wires": []
     },
     {
@@ -3833,7 +3584,7 @@
         "repair": false,
         "outputs": 1,
         "x": 3030,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "6aeca8586a5c8981"
@@ -4055,9 +3806,11 @@
         "z": "e7c83390c801a80d",
         "g": "42e0ca0b34b1ace9",
         "name": "",
-        "scope": null,
+        "scope": [
+            "ceef083bbb5a5882"
+        ],
         "uncaught": false,
-        "x": 2780,
+        "x": 2770,
         "y": 340,
         "wires": [
             [
@@ -4318,7 +4071,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 2810,
-        "y": 720,
+        "y": 760,
         "wires": [
             [
                 "670ab20c8c4c7c26"
@@ -4383,14 +4136,14 @@
         "z": "e7c83390c801a80d",
         "g": "0a693ed80d2f4120",
         "name": "Check user input and construct payload object",
-        "func": "var BMServerID = flow.get(\"UITempBMServerID\");\nvar BMChannelID = flow.get(\"UITempBMChannelID\");\n\nif(!BMServerID){\n    node.error(\"Battlemetrics Server ID is empty\",msg)\n    return null; //halt flow\n}\nif(!BMChannelID){\n    node.error(\"Battlemetrics Channel ID is empty\",msg)\n    return null; //halt flow\n}\n\nmsg.payload = [\n    {\n        \"BMServerID\": BMServerID,\n        \"BMChannelID\": BMChannelID\n    }\n]\n//temporary debug - set payload with string version for demo notification\n\n//msg.payload = \"All fields OK. This is what varbinds contains...\\n\" +  JSON.stringify(msg.varbinds);\nreturn msg;",
+        "func": "var BMServerID = flow.get(\"UITempBMServerID\");\nvar BMChannelID = flow.get(\"UITempBMChannelID\");\nvar BMThumb = flow.get(\"UITempBMThumb\");\n\nif(!BMServerID){\n    node.error(\"Battlemetrics Server ID is empty\",msg)\n    return null; //halt flow\n}\nif(!BMChannelID){\n    node.error(\"Battlemetrics Channel ID is empty\",msg)\n    return null; //halt flow\n}\nif(!BMThumb){\n    node.error(\"Thumbnail URL is empty\",msg)\n    return null; //halt flow\n}\n\nmsg.payload = [\n    {\n        \"BMServerID\": BMServerID,\n        \"BMChannelID\": BMChannelID,\n        \"BMThumb\": BMThumb\n    }\n]\n//temporary debug - set payload with string version for demo notification\n\n//msg.payload = \"All fields OK. This is what varbinds contains...\\n\" +  JSON.stringify(msg.varbinds);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 3100,
-        "y": 720,
+        "y": 760,
         "wires": [
             [
                 "5323bc0b2a2e2691",
@@ -4415,7 +4168,7 @@
         "topic": "",
         "name": "",
         "x": 3010,
-        "y": 760,
+        "y": 800,
         "wires": []
     },
     {
@@ -4433,7 +4186,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 3080,
-        "y": 800,
+        "y": 840,
         "wires": []
     },
     {
@@ -4456,6 +4209,13 @@
                 "pt": "flow",
                 "to": "payload[0].BMChannelID",
                 "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "BatMetThumb",
+                "pt": "flow",
+                "to": "payload[0].BMThumb",
+                "tot": "str"
             }
         ],
         "action": "",
@@ -4464,7 +4224,7 @@
         "to": "",
         "reg": false,
         "x": 2990,
-        "y": 840,
+        "y": 880,
         "wires": [
             []
         ]
@@ -4500,7 +4260,7 @@
         "z": "e7c83390c801a80d",
         "g": "59f969dbefde3c20",
         "name": "CREATE Tables",
-        "func": "msg.topic = \"CREATE TABLE steamUser (steamId INTEGER PRIMARY KEY, scumName TEXT, ipAddress TEXT, scumId NUMERIC);\";\nreturn msg;",
+        "func": "msg.topic = \"CREATE TABLE IF NOT EXISTS steamUser (steamId INTEGER PRIMARY KEY, scumName TEXT, ipAddress TEXT, scumId NUMERIC);\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4770,10 +4530,10 @@
         "type": "comment",
         "z": "e7c83390c801a80d",
         "g": "935e59a53e14ca1a",
-        "name": "Handle ! commands",
+        "name": "Handle $ commands",
         "info": "",
         "x": 2670,
-        "y": 1500,
+        "y": 1620,
         "wires": []
     },
     {
@@ -4792,5 +4552,944 @@
         "x": 3360,
         "y": 1780,
         "wires": []
+    },
+    {
+        "id": "2bc086dd1d0e8d27",
+        "type": "tcp out",
+        "z": "cf6783623c678570",
+        "host": "192.168.3.3",
+        "port": "9000",
+        "beserver": "server",
+        "base64": false,
+        "end": false,
+        "name": "",
+        "x": 1400,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "cd875ad4b50cbb76",
+        "type": "status",
+        "z": "cf6783623c678570",
+        "name": "",
+        "scope": [
+            "2bc086dd1d0e8d27"
+        ],
+        "x": 1240,
+        "y": 240,
+        "wires": [
+            [
+                "b4988f664f82690d"
+            ]
+        ]
+    },
+    {
+        "id": "b4988f664f82690d",
+        "type": "queue",
+        "z": "cf6783623c678570",
+        "name": "",
+        "connected": "^. connection$",
+        "connectedType": "re",
+        "disconnected": "0 connections",
+        "disconnectedType": "str",
+        "sqlite": "/tmp/queue.sqlite",
+        "x": 1230,
+        "y": 300,
+        "wires": [
+            [
+                "2bc086dd1d0e8d27"
+            ]
+        ]
+    },
+    {
+        "id": "42b4bd72e9117726",
+        "type": "link in",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "links": [
+            "0249fbf976c5684c"
+        ],
+        "x": 155,
+        "y": 140,
+        "wires": [
+            [
+                "a3ef228f3ea0197d"
+            ]
+        ]
+    },
+    {
+        "id": "a3ef228f3ea0197d",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "property": "ID",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "BotSteamID",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "87ac5c256773c365",
+                "f571a701c8eade82"
+            ]
+        ]
+    },
+    {
+        "id": "b2ef73b93b171a38",
+        "type": "ui_text_input",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "Bot Steam ID",
+        "label": "Bot Steam ID",
+        "tooltip": "",
+        "group": "5fe617e0c367d2ea",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2010,
+        "y": 1260,
+        "wires": [
+            [
+                "700b0a18f669792e"
+            ]
+        ]
+    },
+    {
+        "id": "a040e13d90ebba7e",
+        "type": "ui_button",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "Save Bot Steam ID",
+        "group": "5fe617e0c367d2ea",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Save Bot Steam ID",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2030,
+        "y": 1300,
+        "wires": [
+            [
+                "33c05c3ed8549326"
+            ]
+        ]
+    },
+    {
+        "id": "43bd6aaf8c6a93a7",
+        "type": "comment",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "Set Bot Steam ID",
+        "info": "",
+        "x": 2020,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "700b0a18f669792e",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "UITempBotSteamID",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2300,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33c05c3ed8549326",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "Check user input and construct payload object",
+        "func": "var BotSteamID = flow.get(\"UITempBotSteamID\");\n\nif(!BotSteamID){\n    node.error(\"Bot Steam ID is empty\",msg)\n    return null; //halt flow\n}\n\nmsg.payload = [\n    {\n        \"BotSteamID\": BotSteamID,\n    }\n]\n//temporary debug - set payload with string version for demo notification\n\n//msg.payload = \"All fields OK. This is what varbinds contains...\\n\" +  JSON.stringify(msg.varbinds);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2360,
+        "y": 1300,
+        "wires": [
+            [
+                "e7bddbf4147893d6",
+                "265d3eb51e402107",
+                "f984d2b7c6e0d1b2"
+            ]
+        ]
+    },
+    {
+        "id": "f984d2b7c6e0d1b2",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "BotSteamID",
+                "pt": "global",
+                "to": "payload[0].BotSteamID",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2280,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "265d3eb51e402107",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "name": "To SNMP (view result in debug window)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2340,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "e7bddbf4147893d6",
+        "type": "ui_toast",
+        "z": "e7c83390c801a80d",
+        "g": "d3b5dcf1216195f0",
+        "position": "top right",
+        "displayTime": "4",
+        "highlight": "green",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "",
+        "x": 2260,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "4859cf46678a4b5e",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "func": "msg.chat = msg.chat[msg.chat.length-1];\nmsg.filename = msg.chat.name\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 700,
+        "wires": [
+            [
+                "89a1963d01173e5b"
+            ]
+        ]
+    },
+    {
+        "id": "569eb3234bd1f82f",
+        "type": "advanced-ftp",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "ftp": "42a903ea.527e3c",
+        "operation": "status",
+        "dataType": "ascii",
+        "filename": "",
+        "localFilename": "adminlogs.log",
+        "workingDir": "",
+        "oldPath": "",
+        "newPath": "",
+        "command": "",
+        "recursive": false,
+        "useCompression": false,
+        "throwError": true,
+        "showError": true,
+        "name": "",
+        "x": 800,
+        "y": 700,
+        "wires": [
+            [
+                "26ed40633166e090"
+            ]
+        ]
+    },
+    {
+        "id": "89a1963d01173e5b",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "func": "msg.operation = \"get\";\nmsg.filename = msg.workingDir + \"/\" + msg.filename;\nmsg.localFilename = \"chatloglatest.log\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 700,
+        "wires": [
+            [
+                "569eb3234bd1f82f"
+            ]
+        ]
+    },
+    {
+        "id": "26ed40633166e090",
+        "type": "file in",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "filename": "chatloglatest.log",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "utf-16le",
+        "allProps": true,
+        "x": 980,
+        "y": 700,
+        "wires": [
+            [
+                "7406a409407d4cc1"
+            ]
+        ]
+    },
+    {
+        "id": "7406a409407d4cc1",
+        "type": "join",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1170,
+        "y": 700,
+        "wires": [
+            [
+                "efb1e6b864de3a4d"
+            ]
+        ]
+    },
+    {
+        "id": "efb1e6b864de3a4d",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "newchatlogs",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "left",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "right",
+                "pt": "msg",
+                "to": "oldchatlogs",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1360,
+        "y": 700,
+        "wires": [
+            [
+                "e248c92ab607f364"
+            ]
+        ]
+    },
+    {
+        "id": "e248c92ab607f364",
+        "type": "differences",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "leftInput": "left",
+        "leftInputType": "msg",
+        "rightInput": "right",
+        "rightInputType": "msg",
+        "func": "-",
+        "outputType": "msg",
+        "output": "payload",
+        "x": 1570,
+        "y": 700,
+        "wires": [
+            [
+                "9cfeebda0480709f"
+            ]
+        ]
+    },
+    {
+        "id": "cf5549fb5ce0239e",
+        "type": "comment",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "Get latest chat log file.",
+        "info": "",
+        "x": 520,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "8215dd1fc9665872",
+        "type": "split",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 610,
+        "y": 780,
+        "wires": [
+            [
+                "47f3282c27881050",
+                "7e42fa7e035a7f39"
+            ]
+        ]
+    },
+    {
+        "id": "9cfeebda0480709f",
+        "type": "switch",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "100",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 780,
+        "wires": [
+            [
+                "8215dd1fc9665872"
+            ],
+            [
+                "47f3282c27881050"
+            ]
+        ]
+    },
+    {
+        "id": "7e42fa7e035a7f39",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "Format message - chat",
+        "func": "var a = msg.payload;\nconst newMsg = {};\n\nnewMsg.time = a.substr(0, 19);\nnewMsg.ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nnewMsg.name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nnewMsg.msgType = a.substring(a.indexOf(\")' '\")+4, a.indexOf(\":\",a.indexOf(\")' '\")+1));\nnewMsg.message = a.substring(a.indexOf(\"' '\" + newMsg.msgType + \": \"), a.lastIndexOf(\"'\"));\nnewMsg.message = newMsg.message.replace(\"' '\"+newMsg.msgType+\": \",\"\");\n\nif (newMsg.msgType == \"Global\") {\n  newMsg.payload = \"```md\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else if (newMsg.msgType == \"Local\"){\n    newMsg.payload = \"```\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else {\n    newMsg.payload = \"```diff\\n! Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n}\n\nnewMsg.channel = flow.get(\"channelIDChat\");\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 780,
+        "wires": [
+            [
+                "98a83dfabb0e00bb",
+                "bd24a9a6886cabfe",
+                "0249fbf976c5684c"
+            ]
+        ]
+    },
+    {
+        "id": "98a83dfabb0e00bb",
+        "type": "switch",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "property": "msgType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Global",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "437f2ced33b2c09e"
+            ]
+        ]
+    },
+    {
+        "id": "437f2ced33b2c09e",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "channel",
+                "pt": "msg",
+                "to": "channelIDGlobalChat",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1520,
+        "y": 840,
+        "wires": [
+            [
+                "bd24a9a6886cabfe"
+            ]
+        ]
+    },
+    {
+        "id": "47f3282c27881050",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "oldchatlogs",
+                "pt": "flow",
+                "to": "newchatlogs",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0249fbf976c5684c",
+        "type": "link out",
+        "z": "e7c83390c801a80d",
+        "g": "b36a1ae7d14f8198",
+        "name": "",
+        "links": [
+            "42b4bd72e9117726"
+        ],
+        "x": 1675,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "87ac5c256773c365",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 270,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f571a701c8eade82",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "property": "message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "SCUMmunity Bot Initializing.",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "59708558768acf73",
+                "3ef4329bf93ca1c4",
+                "960ffb812b58175a"
+            ]
+        ]
+    },
+    {
+        "id": "3ef4329bf93ca1c4",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "property": "msgType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Local",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "e115397606bcc015"
+            ]
+        ]
+    },
+    {
+        "id": "59708558768acf73",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "property": "msgType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Squad",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "d6bad227728d6424"
+            ]
+        ]
+    },
+    {
+        "id": "960ffb812b58175a",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "property": "msgType",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Global",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [
+                "b16da2cc36bc87a7"
+            ]
+        ]
+    },
+    {
+        "id": "e115397606bcc015",
+        "type": "function",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "func": "const newMsg = {}\n\nnewMsg.payload = '{ \"type\": \"typeString\", \"args\": \"SCUMmunity Bot Finished Initializing\" }';\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 100,
+        "wires": [
+            [
+                "b4988f664f82690d"
+            ]
+        ]
+    },
+    {
+        "id": "d6bad227728d6424",
+        "type": "function",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "func": "var msg1 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg2 = { payload:'{ \"type\": \"typeString\", \"args\": \"SCUMmunity Bot Finished Initializing\" }' };\n\nreturn [ [ msg1, msg2 ] ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 140,
+        "wires": [
+            [
+                "b4988f664f82690d"
+            ]
+        ]
+    },
+    {
+        "id": "b16da2cc36bc87a7",
+        "type": "function",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "",
+        "func": "var msg1 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg2 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg3 = { payload:'{ \"type\": \"typeString\", \"args\": \"SCUMmunity Bot Finished Initializing\" }' };\n\nreturn [ [ msg1, msg2, msg3 ] ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 180,
+        "wires": [
+            [
+                "b4988f664f82690d"
+            ]
+        ]
+    },
+    {
+        "id": "53538e4aa10c3508",
+        "type": "comment",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "Check Bot Chat Location",
+        "info": "",
+        "x": 310,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "70a2c6a0a236e809",
+        "type": "function",
+        "z": "cf6783623c678570",
+        "name": "",
+        "func": "const newMsg = {}\n\nnewMsg.payload = '{ \"type\": \"typeString\", \"args\": \"' + msg.payload + '\" }';\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 440,
+        "wires": [
+            [
+                "b4988f664f82690d"
+            ]
+        ]
+    },
+    {
+        "id": "60ae93f7a2d7c381",
+        "type": "link in",
+        "z": "cf6783623c678570",
+        "name": "Generic Message Sender",
+        "links": [
+            "ac0107e358a6549f"
+        ],
+        "x": 185,
+        "y": 440,
+        "wires": [
+            [
+                "70a2c6a0a236e809"
+            ]
+        ]
+    },
+    {
+        "id": "1042a32bc4cf0ffd",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "935e59a53e14ca1a",
+        "name": "",
+        "func": "let str = msg.payload;\n \nstr = str.substring(12);\nmsg.payload = str;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3440,
+        "y": 1680,
+        "wires": [
+            [
+                "ac0107e358a6549f"
+            ]
+        ]
+    },
+    {
+        "id": "ac0107e358a6549f",
+        "type": "link out",
+        "z": "e7c83390c801a80d",
+        "g": "935e59a53e14ca1a",
+        "name": "",
+        "links": [
+            "60ae93f7a2d7c381"
+        ],
+        "x": 3555,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "873d8a2ace439507",
+        "type": "change",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "UITempBMThumb",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3030,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e401ee9388a4e28d",
+        "type": "ui_text_input",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "label": "Thumbnail URL",
+        "tooltip": "URL for your Discord's Logo",
+        "group": "cdebc38f99ac001e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2800,
+        "y": 720,
+        "wires": [
+            [
+                "873d8a2ace439507"
+            ]
+        ]
     }
 ]
