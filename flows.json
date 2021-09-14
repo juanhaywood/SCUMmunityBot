@@ -45,7 +45,9 @@
             "3cc3e9ff918628ad"
         ],
         "x": 1914,
-        "y": 19
+        "y": 19,
+        "w": 732,
+        "h": 502
     },
     {
         "id": "f2e3944ec2e98a49",
@@ -85,7 +87,9 @@
             "f950f2df5481240c"
         ],
         "x": 1914,
-        "y": 539
+        "y": 539,
+        "w": 752,
+        "h": 622
     },
     {
         "id": "42e0ca0b34b1ace9",
@@ -119,7 +123,9 @@
             "a3ae95950a9ec97c"
         ],
         "x": 2694,
-        "y": 19
+        "y": 19,
+        "w": 1292,
+        "h": 462
     },
     {
         "id": "0a693ed80d2f4120",
@@ -147,7 +153,9 @@
             "f1b7362c3fb12344"
         ],
         "x": 2694,
-        "y": 539
+        "y": 539,
+        "w": 612,
+        "h": 382
     },
     {
         "id": "f0dc09849048ecc9",
@@ -175,7 +183,9 @@
             "f7e219e337e5edec"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 1112,
+        "h": 242
     },
     {
         "id": "59f969dbefde3c20",
@@ -198,7 +208,9 @@
             "ace7eb5425392eb6"
         ],
         "x": 2554,
-        "y": 1739
+        "y": 1739,
+        "w": 922,
+        "h": 142
     },
     {
         "id": "935e59a53e14ca1a",
@@ -224,7 +236,9 @@
             "ac0107e358a6549f"
         ],
         "x": 2554,
-        "y": 1559
+        "y": 1559,
+        "w": 1042,
+        "h": 162
     },
     {
         "id": "12435dd0704ed692",
@@ -254,7 +268,9 @@
             "cd9178a79b592056"
         ],
         "x": 374,
-        "y": 2359
+        "y": 2359,
+        "w": 1312,
+        "h": 282
     },
     {
         "id": "6eb98fdfabd2b89e",
@@ -284,7 +300,9 @@
             "e5a769887b87fd39"
         ],
         "x": 394,
-        "y": 2039
+        "y": 2039,
+        "w": 1312,
+        "h": 282
     },
     {
         "id": "d31b319e0a98a425",
@@ -323,10 +341,20 @@
             "33dff353b4411c99",
             "29ac032cc0751b08",
             "8719de7f5a89d239",
-            "de211fa98e101295"
+            "de211fa98e101295",
+            "ce90481d1c91de92",
+            "d15b8a39a816f2bc",
+            "dd8a48d47178cb22",
+            "ce2adbabcfd9ccf5",
+            "9cf5b0b92d40a5fb",
+            "44b4c9a87f37ac13",
+            "4cd4e68728847815",
+            "4d9e1fb14b90dfc1"
         ],
         "x": 394,
-        "y": 1339
+        "y": 1339,
+        "w": 1432,
+        "h": 662
     },
     {
         "id": "f13b70955d462e75",
@@ -360,7 +388,9 @@
             "bc96117ebb3a0833"
         ],
         "x": 394,
-        "y": 979
+        "y": 979,
+        "w": 1332,
+        "h": 302
     },
     {
         "id": "f0941043a3857f6f",
@@ -390,7 +420,9 @@
             "ae1215d4a6d3581c"
         ],
         "x": 394,
-        "y": 279
+        "y": 279,
+        "w": 1352,
+        "h": 282
     },
     {
         "id": "b36a1ae7d14f8198",
@@ -423,7 +455,9 @@
             "0249fbf976c5684c"
         ],
         "x": 394,
-        "y": 599
+        "y": 599,
+        "w": 1322,
+        "h": 342
     },
     {
         "id": "c58defa34619bed1",
@@ -449,11 +483,12 @@
             "53538e4aa10c3508",
             "a3ef228f3ea0197d",
             "87ac5c256773c365",
-            "42b4bd72e9117726"
+            "42b4bd72e9117726",
+            "3e020dc420936440"
         ],
         "x": 114,
         "y": 19,
-        "w": 872,
+        "w": 892,
         "h": 222
     },
     {
@@ -480,7 +515,9 @@
             "e7bddbf4147893d6"
         ],
         "x": 1914,
-        "y": 1179
+        "y": 1179,
+        "w": 652,
+        "h": 342
     },
     {
         "id": "42a903ea.527e3c",
@@ -4262,7 +4299,8 @@
         "y": 1580,
         "wires": [
             [
-                "33d1d8df9440d575"
+                "33d1d8df9440d575",
+                "d15b8a39a816f2bc"
             ]
         ]
     },
@@ -4279,7 +4317,8 @@
         "y": 1680,
         "wires": [
             [
-                "c94b0e292a3b7a6b"
+                "c94b0e292a3b7a6b",
+                "4d9e1fb14b90dfc1"
             ]
         ]
     },
@@ -4311,7 +4350,7 @@
                 "a570cdd0a47f576a"
             ],
             [
-                "de211fa98e101295"
+                "dd8a48d47178cb22"
             ]
         ]
     },
@@ -4405,7 +4444,8 @@
         "y": 1960,
         "wires": [
             [
-                "8719de7f5a89d239"
+                "8719de7f5a89d239",
+                "ce90481d1c91de92"
             ]
         ]
     },
@@ -4442,7 +4482,7 @@
         "finalize": "",
         "libs": [],
         "x": 1520,
-        "y": 1840,
+        "y": 1920,
         "wires": [
             [
                 "bd24a9a6886cabfe"
@@ -4538,40 +4578,6 @@
         "x": 1400,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "cd875ad4b50cbb76",
-        "type": "status",
-        "z": "cf6783623c678570",
-        "name": "",
-        "scope": [
-            "2bc086dd1d0e8d27"
-        ],
-        "x": 1240,
-        "y": 240,
-        "wires": [
-            [
-                "b4988f664f82690d"
-            ]
-        ]
-    },
-    {
-        "id": "b4988f664f82690d",
-        "type": "queue",
-        "z": "cf6783623c678570",
-        "name": "",
-        "connected": "^. connection$",
-        "connectedType": "re",
-        "disconnected": "0 connections",
-        "disconnectedType": "str",
-        "sqlite": "/tmp/queue.sqlite",
-        "x": 1230,
-        "y": 300,
-        "wires": [
-            [
-                "2bc086dd1d0e8d27"
-            ]
-        ]
     },
     {
         "id": "42b4bd72e9117726",
@@ -5183,17 +5189,27 @@
                 "t": "eq",
                 "v": "SCUMmunity Bot Initializing.",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "tSCUMmunity Bot Initializing.",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
+        "outputs": 2,
         "x": 390,
         "y": 140,
         "wires": [
             [
                 "59708558768acf73",
                 "3ef4329bf93ca1c4",
+                "960ffb812b58175a"
+            ],
+            [
+                "3ef4329bf93ca1c4",
+                "59708558768acf73",
                 "960ffb812b58175a"
             ]
         ]
@@ -5288,11 +5304,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 700,
         "y": 100,
         "wires": [
             [
-                "b4988f664f82690d"
+                "3e020dc420936440",
+                "08986cca3b6b02c6"
             ]
         ]
     },
@@ -5308,11 +5325,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 700,
         "y": 140,
         "wires": [
             [
-                "b4988f664f82690d"
+                "3e020dc420936440",
+                "08986cca3b6b02c6"
             ]
         ]
     },
@@ -5328,11 +5346,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 700,
         "y": 180,
         "wires": [
             [
-                "b4988f664f82690d"
+                "3e020dc420936440",
+                "08986cca3b6b02c6"
             ]
         ]
     },
@@ -5362,7 +5381,7 @@
         "y": 440,
         "wires": [
             [
-                "b4988f664f82690d"
+                "08986cca3b6b02c6"
             ]
         ]
     },
@@ -5463,5 +5482,429 @@
                 "873d8a2ace439507"
             ]
         ]
+    },
+    {
+        "id": "05c63d9679d05d8e",
+        "type": "tcp in",
+        "z": "cf6783623c678570",
+        "name": "",
+        "server": "server",
+        "host": "",
+        "port": "9001",
+        "datamode": "single",
+        "datatype": "utf8",
+        "newline": "",
+        "topic": "",
+        "base64": false,
+        "x": 140,
+        "y": 780,
+        "wires": [
+            [
+                "a13dd9d6b66bac07",
+                "a5dc26bc42bea497"
+            ]
+        ]
+    },
+    {
+        "id": "a13dd9d6b66bac07",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 260,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "08986cca3b6b02c6",
+        "type": "q-gate",
+        "z": "cf6783623c678570",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "queue",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "flush",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "100",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 1210,
+        "y": 300,
+        "wires": [
+            [
+                "2bc086dd1d0e8d27",
+                "ab78e9f2c61b94b1"
+            ]
+        ]
+    },
+    {
+        "id": "ce90481d1c91de92",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "a5dc26bc42bea497",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "botClientState",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "936b7b35658ab74c"
+            ]
+        ]
+    },
+    {
+        "id": "936b7b35658ab74c",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "name": "",
+        "property": "botClientState",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "In Game",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 560,
+        "y": 780,
+        "wires": [
+            [],
+            [
+                "d4098ed15e03893d"
+            ]
+        ]
+    },
+    {
+        "id": "5473cfceeba1dca2",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "name": "OPEN GATE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 600,
+        "wires": [
+            [
+                "08986cca3b6b02c6"
+            ]
+        ]
+    },
+    {
+        "id": "5bd0a600838ed778",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "name": "QUEUE GATE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "queue",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 660,
+        "wires": [
+            [
+                "08986cca3b6b02c6"
+            ]
+        ]
+    },
+    {
+        "id": "3e020dc420936440",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
+        "name": "In Chat = True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "botChatInitialized",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 140,
+        "wires": [
+            [
+                "5473cfceeba1dca2"
+            ]
+        ]
+    },
+    {
+        "id": "d4098ed15e03893d",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "name": "In Chat = False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "botChatInitialized",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 860,
+        "wires": [
+            [
+                "5bd0a600838ed778"
+            ]
+        ]
+    },
+    {
+        "id": "ab78e9f2c61b94b1",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d15b8a39a816f2bc",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "dd8a48d47178cb22",
+        "type": "switch",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "Check Name Change",
+        "property": "payload[0].scumId",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "player.scumid",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1040,
+        "y": 1760,
+        "wires": [
+            [
+                "de211fa98e101295"
+            ],
+            [
+                "ce2adbabcfd9ccf5",
+                "9cf5b0b92d40a5fb"
+            ]
+        ]
+    },
+    {
+        "id": "ce2adbabcfd9ccf5",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "Update Player's Name and scumID",
+        "func": "msg.topic = \"UPDATE steamUser SET scumId = \" + msg.player.scumid + \", scumName = \\\"\" + msg.player.scumname + \"\\\" WHERE steamId = \" + msg.player.steamid;\nmsg.payload = \"\";\nreturn msg;\n\n//\"UPDATE steamUser SET scumName = 'Chappie 3.0', scumId = 1362;\"",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1820,
+        "wires": [
+            [
+                "44b4c9a87f37ac13",
+                "4cd4e68728847815"
+            ]
+        ]
+    },
+    {
+        "id": "9cf5b0b92d40a5fb",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "format login message (Existing Player/New Name)",
+        "func": "msg.payload = \"```diff\\n+login Time: [\" + msg.time.hour + \":\" + msg.time.minute + \":\" + msg.time.second + \"] ID: [\" + msg.player.steamid + \"] Name: [\" + msg.player.scumname + \"] [NAME CHANGED! Old Name: \" + msg.payload[0].scumName +\"]\\n```\";\nmsg.channel = flow.get(\"channelIDLogin\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 1840,
+        "wires": [
+            [
+                "bd24a9a6886cabfe"
+            ]
+        ]
+    },
+    {
+        "id": "44b4c9a87f37ac13",
+        "type": "sqlite",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "mydb": "2118590cbe579670",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 1240,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4cd4e68728847815",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "4d9e1fb14b90dfc1",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "d31b319e0a98a425",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 1640,
+        "wires": []
     }
 ]
