@@ -4,17 +4,7 @@ Open-source bot for the SCUM Community
 ## Discord
 https://discord.gg/yszCqqA3n8
 
-## Servers Using the SCUMmunity Bot:
-
-[SCUM South Africa Tech-1 High loot-PVP-NO Mechs-BOT SHOP](https://www.battlemetrics.com/servers/scum/12174589)
-
-[iUK SCUM - PVE RP PVP - discord.gg/qkE4dsV](https://www.battlemetrics.com/servers/scum/10710164)
-
-[[TH]KRAKEN SCUM Loot x5 Super Real! discord.gg/p3nczfUHwH](https://www.battlemetrics.com/servers/scum/12724194)
-
 ## Features: 
-Send messages and admin commands to the SCUM Game via the Bot Client application: https://github.com/juanhaywood/SCUMmunityBotClient
-
 Stream server logs to Discord
 
 ![image](https://user-images.githubusercontent.com/53084642/132686470-9b4d04a1-495e-463b-a4e8-283a8a630cea.png)
@@ -29,10 +19,8 @@ Live Display Of Battlemetrics Info
 
 
 
-
-
 ## Installation
-Coming Soon - contact TheKraken_ZA#0001 for assistance in the meantime.
+Coming Soon
 
 ## To do: 
 
