@@ -437,7 +437,9 @@
             "3e020dc420936440"
         ],
         "x": 114,
-        "y": 19
+        "y": 19,
+        "w": 892,
+        "h": 222
     },
     {
         "id": "d3b5dcf1216195f0",
@@ -3897,7 +3899,7 @@
                 "p": "BatMetThumb",
                 "pt": "flow",
                 "to": "payload[0].BMThumb",
-                "tot": "str"
+                "tot": "msg"
             }
         ],
         "action": "",
