@@ -4,7 +4,7 @@ Open-source bot for the SCUM Community
 ## Discord
 https://discord.gg/yszCqqA3n8
 
-##Servers Using the SCUMmunity Bot:
+## Servers Using the SCUMmunity Bot:
 
 [SCUM South Africa Tech-1 High loot-PVP-NO Mechs-BOT SHOP](https://www.battlemetrics.com/servers/scum/12174589)
 
