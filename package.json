@@ -4,7 +4,6 @@
     "version": "0.0.1",
     "dependencies": {
         "@tmus/node-red-contrib-differences": "1.1.1",
-        "node-red-contrib-advanced-ftp": "2.1.0",
         "node-red-contrib-discord-advanced": "2.3.1",
         "node-red-dashboard": "2.30.0",
         "node-red-node-sqlite": "1.0.0",
