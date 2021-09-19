@@ -1826,8 +1826,8 @@
                 "t": "set",
                 "p": "workingDir",
                 "pt": "flow",
-                "to": "165.73.241.82_7000",
-                "tot": "str"
+                "to": "ppFolder",
+                "tot": "flow"
             },
             {
                 "t": "set",
