@@ -13,6 +13,13 @@ https://discord.gg/yszCqqA3n8
 [[TH]KRAKEN SCUM Loot x5 Super Real! discord.gg/p3nczfUHwH](https://www.battlemetrics.com/servers/scum/12724194)
 
 ## Features: 
+
+
+Discord Bot Shop! Using fame as currency, players can buy items that you configure in a catalogue, and the bot will deliver it to their location:
+
+https://youtu.be/29gXXwLqTPk
+
+
 Send messages and admin commands to the SCUM Game via the Bot Client application: https://github.com/juanhaywood/SCUMmunityBotClient
 
 ![image](https://user-images.githubusercontent.com/53084642/132686470-9b4d04a1-495e-463b-a4e8-283a8a630cea.png)
