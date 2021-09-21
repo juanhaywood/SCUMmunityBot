@@ -541,9 +541,7 @@
             "368c9b39c5923827"
         ],
         "x": 114,
-        "y": 319,
-        "w": 1072,
-        "h": 322
+        "y": 319
     },
     {
         "id": "058db8f4097386b6",
@@ -572,9 +570,7 @@
             "02be798431dca5e5"
         ],
         "x": 114,
-        "y": 659,
-        "w": 1072,
-        "h": 282
+        "y": 659
     },
     {
         "id": "79fa116804b14942",
@@ -607,9 +603,7 @@
             "2eeb45a4aca74e7e"
         ],
         "x": 1834,
-        "y": 39,
-        "w": 1072,
-        "h": 262
+        "y": 39
     },
     {
         "id": "8b891dd4611c028d",
@@ -638,9 +632,7 @@
             "333c655abf0a0027"
         ],
         "x": 1754,
-        "y": 319,
-        "w": 1172,
-        "h": 502
+        "y": 319
     },
     {
         "id": "9947ed56b0b80a62",
@@ -671,9 +663,7 @@
             "e6098bd9e86da786"
         ],
         "x": 114,
-        "y": -1,
-        "w": 1352,
-        "h": 302
+        "y": -1
     },
     {
         "id": "7c72005ea0dd4a7e",
@@ -736,9 +726,7 @@
             "c17ff235349b0b07"
         ],
         "x": 1814,
-        "y": 899,
-        "w": 1232,
-        "h": 222
+        "y": 899
     },
     {
         "id": "a385aff966834226",
@@ -775,9 +763,7 @@
             "bfb459561644e0cc"
         ],
         "x": 3174,
-        "y": 19,
-        "w": 872,
-        "h": 542
+        "y": 19
     },
     {
         "id": "cd48672b90f76112",
@@ -804,9 +790,7 @@
             "32cc00b3781fce1a"
         ],
         "x": 3174,
-        "y": 599,
-        "w": 872,
-        "h": 542
+        "y": 599
     },
     {
         "id": "bb2eaf1e481b717d",
@@ -829,9 +813,7 @@
             "23c4a386f2b9b724"
         ],
         "x": 4094,
-        "y": 19,
-        "w": 792,
-        "h": 142
+        "y": 19
     },
     {
         "id": "27505ac0cc6d3b19",
@@ -854,9 +836,7 @@
             "52cbc964c738cf21"
         ],
         "x": 1814,
-        "y": 1119,
-        "w": 462,
-        "h": 242
+        "y": 1119
     },
     {
         "id": "a26a12c8442182ad",
@@ -1239,13 +1219,13 @@
         "z": "e7c83390c801a80d",
         "g": "f13b70955d462e75",
         "name": "",
-        "filename": "LatestKill.log",
+        "filename": "/data/logs/LatestKill.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 890,
+        "x": 930,
         "y": 1180,
         "wires": [
             [
@@ -1274,7 +1254,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1090,
+        "x": 1110,
         "y": 1180,
         "wires": [
             [
@@ -1443,13 +1423,13 @@
         "z": "e7c83390c801a80d",
         "g": "6eb98fdfabd2b89e",
         "name": "",
-        "filename": "LatestMines.log",
+        "filename": "/data/logs/LatestMines.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 900,
+        "x": 930,
         "y": 2220,
         "wires": [
             [
@@ -1478,7 +1458,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1090,
+        "x": 1110,
         "y": 2220,
         "wires": [
             [
@@ -1647,13 +1627,13 @@
         "z": "e7c83390c801a80d",
         "g": "12435dd0704ed692",
         "name": "",
-        "filename": "LatestViolations.log",
+        "filename": "/data/logs/LatestViolations.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 930,
+        "x": 970,
         "y": 2540,
         "wires": [
             [
@@ -1682,7 +1662,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1090,
+        "x": 1170,
         "y": 2540,
         "wires": [
             [
@@ -1724,7 +1704,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1280,
+        "x": 1320,
         "y": 2540,
         "wires": [
             [
@@ -1771,7 +1751,7 @@
         "func": "-",
         "outputType": "msg",
         "output": "payload",
-        "x": 1490,
+        "x": 1510,
         "y": 2540,
         "wires": [
             [
@@ -4172,13 +4152,13 @@
         "z": "e7c83390c801a80d",
         "g": "b36a1ae7d14f8198",
         "name": "",
-        "filename": "LatestChat.log",
+        "filename": "/data/logs/LatestChat.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 900,
+        "x": 930,
         "y": 800,
         "wires": [
             [
@@ -4207,7 +4187,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1090,
+        "x": 1110,
         "y": 800,
         "wires": [
             [
@@ -4954,13 +4934,13 @@
         "z": "e7c83390c801a80d",
         "g": "d31b319e0a98a425",
         "name": "",
-        "filename": "LatestLogin.log",
+        "filename": "/data/logs/LatestLogin.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 920,
+        "x": 950,
         "y": 1520,
         "wires": [
             [
@@ -4989,7 +4969,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1110,
+        "x": 1130,
         "y": 1520,
         "wires": [
             [
@@ -7077,7 +7057,7 @@
         "z": "e7c83390c801a80d",
         "g": "7c72005ea0dd4a7e",
         "name": "Download Lates Admin Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = await(\"Download Admin Log: Connection Open\");\n    await client.ensureDir(dir);\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestAdminFile\");\n        await client.downloadTo(\"LatestAdmin.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file: \" + latestLogfileName);\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Connection Closed.\";\nmsg.connection = \"Download Admin Log: Connection Closed\";\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = await(\"Download Admin Log: Connection Open\");\n    await client.ensureDir(dir);\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestAdminFile\");\n        //await client.downloadToDir(\"/data/logs\");\n        await client.downloadTo(\"/data/logs/LatestAdmin.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file: \" + latestLogfileName);\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Connection Closed.\";\nmsg.connection = \"Download Admin Log: Connection Closed\";\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7102,13 +7082,13 @@
         "z": "e7c83390c801a80d",
         "g": "7c72005ea0dd4a7e",
         "name": "",
-        "filename": "LatestAdmin.log",
+        "filename": "/data/logs/LatestAdmin.log",
         "format": "lines",
         "chunk": false,
         "sendError": false,
         "encoding": "utf-16le",
         "allProps": true,
-        "x": 900,
+        "x": 940,
         "y": 520,
         "wires": [
             [
@@ -7388,7 +7368,7 @@
         "z": "e7c83390c801a80d",
         "g": "b36a1ae7d14f8198",
         "name": "Download Lates Chat Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = await(\"Download Chat Log: Connection Open\");\n    await client.ensureDir(dir);\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestChatFile\");\n        await client.downloadTo(\"LatestChat.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Connection Closed.\";\nmsg.connection = \"Download Chat Log: Connection Closed\";\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = await(\"Download Chat Log: Connection Open\");\n    await client.ensureDir(dir);\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestChatFile\");\n        await client.downloadTo(\"/data/logs/LatestChat.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Connection Closed.\";\nmsg.connection = \"Download Chat Log: Connection Closed\";\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7497,7 +7477,7 @@
         "z": "e7c83390c801a80d",
         "g": "f13b70955d462e75",
         "name": "Download Lates Kill Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Kill Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestKillFile\");\n        await client.downloadTo(\"LatestKill.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Kill Log: Connection Closed.\"\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Kill Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestKillFile\");\n        await client.downloadTo(\"/data/logs/LatestKill.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Kill Log: Connection Closed.\"\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7550,7 +7530,7 @@
         "z": "e7c83390c801a80d",
         "g": "d31b319e0a98a425",
         "name": "Download Lates Login Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Login Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestLoginFile\");\n        await client.downloadTo(\"LatestLogin.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Login Log: Connection Closed.\"\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Login Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestLoginFile\");\n        await client.downloadTo(\"/data/logs/LatestLogin.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Login Log: Connection Closed.\"\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7602,7 +7582,7 @@
         "z": "e7c83390c801a80d",
         "g": "6eb98fdfabd2b89e",
         "name": "Download Mine Chat Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Mine Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestMinesFile\");\n        await client.downloadTo(\"LatestMines.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Mine Log: Connection Closed.\"\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Mine Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestMinesFile\");\n        await client.downloadTo(\"/data/logs/LatestMines.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Mine Log: Connection Closed.\"\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7655,7 +7635,7 @@
         "z": "e7c83390c801a80d",
         "g": "12435dd0704ed692",
         "name": "Download Lates Violations Log",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Violations Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestViolationsFile\");\n        await client.downloadTo(\"LatestViolations.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Violations Log: Connection Closed.\"\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true;\nflow.set(\"tail\", true);\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    await client.ensureDir(dir);\n    msg.connection = await(\"Download Violations Log: Connection Open\");\n    while (flow.get(\"tail\")) {\n        var latestLogfileName = flow.get(\"LatestViolationsFile\");\n        await client.downloadTo(\"/data/logs/LatestViolations.log\", latestLogfileName);\n        msg.payload = await(\"Downloaded file.\");\n        node.send(msg);\n        await timeout(2000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\nmsg.payload = \"Download Violations Log: Connection Closed.\"\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9947,7 +9927,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1090,
+        "x": 1130,
         "y": 520,
         "wires": [
             [
