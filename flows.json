@@ -210,7 +210,8 @@
             "81c0221d45cd243f",
             "9e6fc2ca03098c90",
             "e336f1bc7a2630db",
-            "3650b8fff823bbbc"
+            "3650b8fff823bbbc",
+            "4cdfa87d977b96c6"
         ],
         "x": 14,
         "y": 39,
@@ -362,14 +363,14 @@
             "bf6272bf00ea2bf0",
             "8e390dd4c4b0c4c3",
             "bc96117ebb3a0833",
-            "cad61da787c1ef5e",
             "18d91639341a4f7e",
-            "9ab74c06076ff7af"
+            "9ab74c06076ff7af",
+            "28ab5a9d48e45c0c"
         ],
         "x": 314,
         "y": 1079,
         "w": 1332,
-        "h": 302
+        "h": 282
     },
     {
         "id": "b36a1ae7d14f8198",
@@ -430,12 +431,12 @@
             "a3ef228f3ea0197d",
             "87ac5c256773c365",
             "42b4bd72e9117726",
-            "3e020dc420936440"
+            "3e020dc420936440",
+            "5473cfceeba1dca2",
+            "017bd3dc1581d8e7"
         ],
         "x": 114,
-        "y": 19,
-        "w": 892,
-        "h": 222
+        "y": 19
     },
     {
         "id": "d3b5dcf1216195f0",
@@ -601,11 +602,13 @@
             "9632ecfc39a338dd",
             "4d8d03937ff91d7b",
             "8a887142bc8126b5",
-            "a58e963d867a0e82"
+            "a58e963d867a0e82",
+            "3b223ac27bb8f2f8",
+            "2eeb45a4aca74e7e"
         ],
-        "x": 1814,
+        "x": 1834,
         "y": 39,
-        "w": 1092,
+        "w": 1072,
         "h": 262
     },
     {
@@ -631,12 +634,13 @@
             "409d7b7f76d25d6a",
             "0c14e1faa7d8baaa",
             "e4eee9c05cb37a3b",
-            "c8624c97907f4139"
+            "c8624c97907f4139",
+            "333c655abf0a0027"
         ],
-        "x": 1814,
+        "x": 1754,
         "y": 319,
-        "w": 1092,
-        "h": 262
+        "w": 1172,
+        "h": 502
     },
     {
         "id": "9947ed56b0b80a62",
@@ -667,9 +671,9 @@
             "e6098bd9e86da786"
         ],
         "x": 114,
-        "y": 19,
-        "w": 1492,
-        "h": 282
+        "y": -1,
+        "w": 1352,
+        "h": 302
     },
     {
         "id": "7c72005ea0dd4a7e",
@@ -687,7 +691,6 @@
         "nodes": [
             "c6fea49f09e43e45",
             "d0fe9715cc7094b6",
-            "4ba7d7b524cf4dd7",
             "2ec098f216d0be5a",
             "08afd010394fae7f",
             "fac8dec16290c99a",
@@ -696,7 +699,9 @@
             "6da5b1a2028ab12b",
             "8a9fff92d43419ec",
             "7566bd08b9e5dd36",
-            "f97c6f5df35a6f6a"
+            "4ba7d7b524cf4dd7",
+            "92b40d863658452c",
+            "9bb2f5d70f755c29"
         ],
         "x": 314,
         "y": 419,
@@ -727,10 +732,11 @@
             "1cf8f7f6bf7fef1b",
             "ee2ec6f85b4450f5",
             "4d845909b0f03edf",
-            "401ca76ea342303d"
+            "401ca76ea342303d",
+            "c17ff235349b0b07"
         ],
         "x": 1814,
-        "y": 619,
+        "y": 899,
         "w": 1232,
         "h": 222
     },
@@ -848,9 +854,33 @@
             "52cbc964c738cf21"
         ],
         "x": 1814,
-        "y": 879,
+        "y": 1119,
         "w": 462,
         "h": 242
+    },
+    {
+        "id": "a26a12c8442182ad",
+        "type": "group",
+        "z": "cf6783623c678570",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "dfbe641a58b09fbd",
+            "aafa6f76d9109ab3",
+            "055286a60a7df2a8",
+            "88e25f27f1bdbe02",
+            "c66cbcdfd144dacc",
+            "7db129373035932c"
+        ],
+        "x": 1484,
+        "y": 19
     },
     {
         "id": "6363ec22c866f790",
@@ -1162,7 +1192,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "5",
         "topic": "",
         "payloadType": "date",
         "x": 130,
@@ -1197,8 +1227,8 @@
         "name": "Send Discord Message",
         "channel": "",
         "token": "934fbc5791d441db",
-        "x": 2070,
-        "y": 1700,
+        "x": 2290,
+        "y": 1920,
         "wires": [
             []
         ]
@@ -1237,7 +1267,7 @@
         "joiner": "\\n",
         "joinerType": "str",
         "accumulate": false,
-        "timeout": "",
+        "timeout": "1.5",
         "count": "",
         "reduceRight": false,
         "reduceExp": "",
@@ -1441,7 +1471,7 @@
         "joiner": "\\n",
         "joinerType": "str",
         "accumulate": false,
-        "timeout": "",
+        "timeout": "1.5",
         "count": "",
         "reduceRight": false,
         "reduceExp": "",
@@ -1645,7 +1675,7 @@
         "joiner": "\\n",
         "joinerType": "str",
         "accumulate": false,
-        "timeout": "",
+        "timeout": "1.5",
         "count": "",
         "reduceRight": false,
         "reduceExp": "",
@@ -2939,16 +2969,18 @@
         "z": "e7c83390c801a80d",
         "g": "f13b70955d462e75",
         "name": "Format message - PvP",
-        "func": "msg.channel = flow.get(\"channelIDPvP\");\nreturn msg;",
+        "func": "msg.payload = \"```yaml\\nKiller: [\" +  msg.payload.details.Killer.ProfileName + \"] Victim: [\" + msg.payload.details.Victim.ProfileName + \"] Weapon: [\" + msg.payload.details.Weapon + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDPvP\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 1340,
+        "x": 1520,
+        "y": 1300,
         "wires": [
-            []
+            [
+                "279676a4af56caf6"
+            ]
         ]
     },
     {
@@ -2967,7 +2999,7 @@
         "y": 2300,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -2987,7 +3019,7 @@
         "y": 2620,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -3023,7 +3055,7 @@
         "z": "e7c83390c801a80d",
         "g": "f13b70955d462e75",
         "name": "Convert Kill Message to Object",
-        "func": "let str = msg.payload;\nlet n = 21;\nconst kill = {};\n\nkill.time = {};\nkill.string = {};\n\nkill.time.year = str.substr(0, 4);\nkill.time.month = str.substr(5, 2);\nkill.time.day = str.substr(8, 2);\nkill.time.hour = str.substr(11, 2);\nkill.time.minute = str.substr(14, 2);\nkill.time.second = str.substr(17, 2);\nkill.details = JSON.parse(str.substring(n));\n\nmsg.payload = kill;\nreturn msg;",
+        "func": "let str = msg.payload;\nlet n = 21;\nconst kill = {};\n\nkill.time = {};\n\nkill.time.year = str.substr(0, 4);\nkill.time.month = str.substr(5, 2);\nkill.time.day = str.substr(8, 2);\nkill.time.hour = str.substr(11, 2);\nkill.time.minute = str.substr(14, 2);\nkill.time.second = str.substr(17, 2);\nkill.details = JSON.parse(str.substring(n));\n\nmsg.payload = kill;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3033,8 +3065,8 @@
         "y": 1260,
         "wires": [
             [
-                "cad61da787c1ef5e",
-                "bc96117ebb3a0833"
+                "bc96117ebb3a0833",
+                "19a5e025f613ecfc"
             ]
         ]
     },
@@ -3044,7 +3076,7 @@
         "z": "e7c83390c801a80d",
         "g": "f13b70955d462e75",
         "name": "Format message - kill",
-        "func": "msg.payload = \"```yaml\\nKiller: [\" +  msg.payload.details.Killer.ProfileName + \"] Victim: [\" + msg.payload.details.Victim.ProfileName + \"] Weapon: [\" + msg.payload.details.Weapon + \"]\\n```\";\nmsg.channel = flow.get(\"channelIDKill\");\nreturn msg;",
+        "func": "msg.payload = \"```yaml\\nTime: [\" +  msg.payload.time.year + \".\" + msg.payload.time.month + \".\" + msg.payload.time.day + \"-\" + msg.payload.time.hour + \".\" + msg.payload.time.minute  + \".\" + msg.payload.time.second + \"] Killer: [\" +  msg.payload.details.Killer.ProfileName + \"] Victim: [\" + msg.payload.details.Victim.ProfileName + \"] Weapon: [\" + msg.payload.details.Weapon + \"] Event: [\" + msg.payload.details.Killer.IsInGameEvent + \"]\\n```\"; \nmsg.channel = flow.get(\"channelIDKill\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3054,7 +3086,7 @@
         "y": 1260,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -3437,11 +3469,11 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "error.message",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2910,
+        "x": 2870,
         "y": 420,
         "wires": []
     },
@@ -3905,13 +3937,13 @@
         "id": "2bc086dd1d0e8d27",
         "type": "tcp out",
         "z": "cf6783623c678570",
-        "host": "192.168.3.3",
+        "host": "192.168.3.17",
         "port": "9000",
         "beserver": "client",
         "base64": false,
         "end": false,
         "name": "",
-        "x": 1380,
+        "x": 1440,
         "y": 360,
         "wires": []
     },
@@ -4168,7 +4200,7 @@
         "joiner": "\\n",
         "joinerType": "str",
         "accumulate": false,
-        "timeout": "",
+        "timeout": "1.5",
         "count": "",
         "reduceRight": false,
         "reduceExp": "",
@@ -4319,7 +4351,7 @@
         "z": "e7c83390c801a80d",
         "g": "b36a1ae7d14f8198",
         "name": "Format message - chat",
-        "func": "var a = msg.payload;\nconst newMsg = {};\n\nnewMsg.time = a.substr(0, 19);\nnewMsg.ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nnewMsg.name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nnewMsg.msgType = a.substring(a.indexOf(\")' '\")+4, a.indexOf(\":\",a.indexOf(\")' '\")+1));\nnewMsg.message = a.substring(a.indexOf(\"' '\" + newMsg.msgType + \": \"), a.lastIndexOf(\"'\"));\nnewMsg.message = newMsg.message.replace(\"' '\"+newMsg.msgType+\": \",\"\");\n\nif (newMsg.msgType == \"Global\") {\n  newMsg.payload = \"```md\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else if (newMsg.msgType == \"Local\"){\n    newMsg.payload = \"```\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else {\n    newMsg.payload = \"```diff\\n! Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n}\n\nnewMsg.channel = flow.get(\"channelIDChat\");\nreturn newMsg;",
+        "func": "var a = msg.payload;\nconst newMsg = {};\n\nnewMsg.time = a.substr(0, 19);\nnewMsg.ID = a.substr(22, 17);\nnewMsg.name = a.substr(a.indexOf(\":\",22)+1,(a.indexOf(\"(\",a.indexOf(\":\",22))-1)-a.indexOf(\":\",22));\nnewMsg.msgType = a.substring(a.indexOf(\")' '\")+4, a.indexOf(\":\",a.indexOf(\")' '\")+1));\nnewMsg.message = a.substring(a.indexOf(\"' '\" + newMsg.msgType + \": \"), a.lastIndexOf(\"'\"));\nnewMsg.message = newMsg.message.replace(\"' '\"+newMsg.msgType+\": \",\"\");\n\nif (newMsg.msgType == \"Global\") {\n  newMsg.payload = \"```md\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else if (newMsg.msgType == \"Local\"){\n    newMsg.payload = \"```\\n# Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n} else {\n    newMsg.payload = \"```diff\\n! Time: [\" + newMsg.time + \"] ID: [\" + newMsg.ID + \"] Name: [\" + newMsg.name + \"] Type: [\" + newMsg.msgType + \"] Message: [\" + newMsg.message +\"]\\n```\";\n}\n\nnewMsg.channel = flow.get(\"channelIDChat\");\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4330,8 +4362,8 @@
         "wires": [
             [
                 "98a83dfabb0e00bb",
-                "bd24a9a6886cabfe",
-                "0249fbf976c5684c"
+                "0249fbf976c5684c",
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -4353,7 +4385,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1310,
+        "x": 1210,
         "y": 1000,
         "wires": [
             [
@@ -4366,7 +4398,7 @@
         "type": "change",
         "z": "e7c83390c801a80d",
         "g": "b36a1ae7d14f8198",
-        "name": "",
+        "name": "Format messages - Global chat",
         "rules": [
             {
                 "t": "set",
@@ -4381,11 +4413,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1480,
+        "x": 1410,
         "y": 1000,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -4435,7 +4467,7 @@
         "z": "cf6783623c678570",
         "g": "c58defa34619bed1",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4601,7 +4633,7 @@
         "z": "cf6783623c678570",
         "g": "c58defa34619bed1",
         "name": "",
-        "func": "var msg1 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg2 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg3 = { payload:'{ \"type\": \"typeString\", \"args\": \"SCUMmunity Bot Finished Initializing\" }' };\n\nreturn [ [ msg1, msg2, msg3 ] ];",
+        "func": "//Removed additional tab, as it appears there isn't a squad chat when in drone mode\nvar msg2 = { payload:'{ \"type\": \"keyTap\", \"args\": \"tab\" }' };\nvar msg3 = { payload:'{ \"type\": \"typeString\", \"args\": \"SCUMmunity Bot Finished Initializing\" }' };\n\nreturn [ [ msg2, msg3 ] ];",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4632,7 +4664,7 @@
         "type": "function",
         "z": "cf6783623c678570",
         "name": "typeString",
-        "func": "const newMsg = {}\n\nnewMsg.payload = '{ \"type\": \"typeString\", \"args\": \"' + msg.payload + '\" }';\n\nreturn newMsg;",
+        "func": "const newMsg = {}\nnewMsg.deliveryStatus = msg.deliveryStatus;\nnewMsg.payload = '{ \"type\": \"typeString\", \"args\": \"' + msg.payload + '\" }';\n\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4805,6 +4837,8 @@
         "id": "5473cfceeba1dca2",
         "type": "change",
         "z": "cf6783623c678570",
+        "d": true,
+        "g": "c58defa34619bed1",
         "name": "OPEN GATE",
         "rules": [
             {
@@ -4827,8 +4861,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1110,
-        "y": 160,
+        "x": 1090,
+        "y": 140,
         "wires": [
             [
                 "08986cca3b6b02c6",
@@ -4915,23 +4949,6 @@
         "wires": []
     },
     {
-        "id": "cad61da787c1ef5e",
-        "type": "debug",
-        "z": "e7c83390c801a80d",
-        "g": "f13b70955d462e75",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1340,
-        "wires": []
-    },
-    {
         "id": "c80b73112ee98a88",
         "type": "file in",
         "z": "e7c83390c801a80d",
@@ -4965,7 +4982,7 @@
         "joiner": "\\n",
         "joinerType": "str",
         "accumulate": false,
-        "timeout": "",
+        "timeout": "1.5",
         "count": "",
         "reduceRight": false,
         "reduceExp": "",
@@ -5368,7 +5385,7 @@
         "y": 1840,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -5388,7 +5405,7 @@
         "y": 2000,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -5408,7 +5425,7 @@
         "y": 1880,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -5481,7 +5498,7 @@
         "y": 1920,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -5629,8 +5646,7 @@
         "y": 200,
         "wires": [
             [
-                "df931e0fbaa62e10",
-                "c4546c225e82e531"
+                "df931e0fbaa62e10"
             ]
         ]
     },
@@ -5663,7 +5679,8 @@
         "y": 140,
         "wires": [
             [
-                "1af0582272132dec"
+                "1af0582272132dec",
+                "3b223ac27bb8f2f8"
             ]
         ]
     },
@@ -5679,7 +5696,7 @@
         "y": 340,
         "wires": [
             [
-                "cc477b5ed883ae03"
+                "08986cca3b6b02c6"
             ]
         ]
     },
@@ -5749,8 +5766,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 320,
-        "y": 520,
+        "x": 270,
+        "y": 440,
         "wires": [
             [
                 "951ee49572458767"
@@ -5788,7 +5805,8 @@
         "y": 140,
         "wires": [
             [
-                "e0a704f5a7a3c5d9"
+                "e0a704f5a7a3c5d9",
+                "2eeb45a4aca74e7e"
             ]
         ]
     },
@@ -6289,13 +6307,13 @@
         "z": "444ae17e1e6afb91",
         "g": "79fa116804b14942",
         "name": "Set TCP Payload steamID",
-        "func": "msg.steamID = msg.payload.steamId\nreturn msg;",
+        "func": "flow.set(\"orderQueue\", msg._queueCount);\nmsg.steamID = msg.payload.orderData.steamId\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1950,
+        "x": 1970,
         "y": 140,
         "wires": [
             [
@@ -6308,7 +6326,7 @@
         "type": "debug",
         "z": "cf6783623c678570",
         "name": "TCP Incoming Messages",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6351,31 +6369,30 @@
         "type": "switch",
         "z": "444ae17e1e6afb91",
         "g": "8b891dd4611c028d",
-        "name": "lastUpdateTimeFP vs createdTimestamp",
+        "name": "lastUpdateTimeFP vs orderTime",
         "property": "payload[0].lastUpdateTimeFP",
         "propertyType": "msg",
         "rules": [
             {
                 "t": "gte",
-                "v": "newPayload.createdTimestamp",
+                "v": "orderTime",
                 "vt": "msg"
             },
             {
                 "t": "lt",
-                "v": "newPayload.createdTimestamp",
+                "v": "orderTime",
                 "vt": "msg"
             }
         ],
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2480,
-        "y": 540,
+        "x": 2470,
+        "y": 780,
         "wires": [
             [
                 "c8624c97907f4139",
-                "1cf8f7f6bf7fef1b",
-                "c4546c225e82e531"
+                "1cf8f7f6bf7fef1b"
             ],
             [
                 "e4eee9c05cb37a3b"
@@ -6399,8 +6416,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 2540,
-        "y": 460,
+        "x": 2580,
+        "y": 520,
         "wires": [
             [
                 "c5099ac8a0952b16"
@@ -6419,7 +6436,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2150,
+        "x": 2190,
         "y": 420,
         "wires": [
             [
@@ -6476,7 +6493,7 @@
         "name": "Check Price Against Balance",
         "info": "",
         "x": 1960,
-        "y": 680,
+        "y": 960,
         "wires": []
     },
     {
@@ -6491,7 +6508,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1930,
+        "x": 1870,
         "y": 420,
         "wires": [
             [
@@ -6505,17 +6522,18 @@
         "z": "444ae17e1e6afb91",
         "g": "8b891dd4611c028d",
         "name": "Search DB for steamUser",
-        "func": "msg.newPayload = msg.payload;\nmsg.payload = \"\";\nmsg.topic = \"SELECT * FROM steamUser WHERE discordID = \" + msg.newPayload.discordID\nreturn msg;",
+        "func": "msg.newPayload = msg.payload;\nmsg.payload = \"\";\nmsg.topic = \"SELECT * FROM steamUser WHERE discordID = \" + msg.data.authorID\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1970,
-        "y": 540,
+        "x": 1990,
+        "y": 780,
         "wires": [
             [
-                "0c14e1faa7d8baaa"
+                "0c14e1faa7d8baaa",
+                "333c655abf0a0027"
             ]
         ]
     },
@@ -6528,8 +6546,8 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2200,
-        "y": 540,
+        "x": 2220,
+        "y": 780,
         "wires": [
             [
                 "64056f1001fb082a"
@@ -6549,7 +6567,7 @@
         "finalize": "",
         "libs": [],
         "x": 1900,
-        "y": 720,
+        "y": 1000,
         "wires": [
             [
                 "ee2ec6f85b4450f5"
@@ -6583,7 +6601,7 @@
         "repair": false,
         "outputs": 3,
         "x": 2450,
-        "y": 720,
+        "y": 1000,
         "wires": [
             [
                 "68c4a3f68c4aef42"
@@ -6600,18 +6618,19 @@
         "z": "444ae17e1e6afb91",
         "g": "4d2d08a55c9a69ac",
         "name": "Not enough FP",
-        "func": "msg.transactionTime = (Date.now() - msg.newPayload.createdTimestamp)/1000 + \" seconds\";\nmsg.payload = \"<@\" + msg.newPayload.discordID + \">\\n```\\nYou have insufficient FP.\\nOrder cost: \" + msg.itemPrice + \"\\nAvailable FP: \" + msg.payload[0].fame + \"\\nOrder processed in \" + msg.transactionTime + \"```\";\nmsg.action = \"edit\";\nmsg.channel = msg.newPayload.channelID;\nmsg.message = msg.newPayload.id;\nreturn msg;",
+        "func": "msg.transactionTime = (Date.now() - msg.newPayload.createdTimestamp)/1000 + \" seconds\";\nmsg.payload = \"<@\" + msg.newPayload.discordID + \">\\n```\\nYou have insufficient FP.\\nOrder cost: \" + msg.payload[0].fpCost + \"\\nAvailable FP: \" + msg.newPayload.fame + \"\\nOrder processed in \" + msg.transactionTime + \"```\";\nmsg.action = \"edit\";\nmsg.channel = msg.newPayload.discordMsg.channelID;\nmsg.message = msg.newPayload.discordMsg.id;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 2620,
-        "y": 700,
+        "y": 980,
         "wires": [
             [
                 "64d0352688361f73",
-                "b4a47a43a96b9456"
+                "b4a47a43a96b9456",
+                "c17ff235349b0b07"
             ]
         ]
     },
@@ -6621,21 +6640,20 @@
         "z": "444ae17e1e6afb91",
         "g": "4d2d08a55c9a69ac",
         "name": "Can afford, proceed",
-        "func": "msg.newBalance = msg.userDetails[0].fame - msg.payload[0].fpCost;\nmsg.transactionTime = (Date.now() - msg.newPayload.createdTimestamp)/1000 + \" seconds\";\nmsg.itemDetails = msg.payload;\nmsg.payload = \"<@\" + msg.newPayload.discordID + \">\\n```\\nOrder processed. Please wait for delivery. Your new balance is \" + msg.newBalance + \"FP. \\nOrder processed in \" + msg.transactionTime + \"```\";\nmsg.action = \"edit\";\nmsg.channel = msg.newPayload.channelID;\nmsg.message = msg.newPayload.id;\nreturn msg;",
+        "func": "msg.newBalance = msg.userDetails[0].fame - msg.payload[0].fpCost;\nmsg.transactionTime = (Date.now() - msg.newPayload.discordMsg.createdTimestamp)/1000 + \" seconds\";\nmsg.itemDetails = msg.payload;\nmsg.payload = \"<@\" + msg.newPayload.orderData.discordID + \">\\n```\\nOrder processed. Please wait for delivery. Your new balance is \" + msg.newBalance + \"FP. \\nOrder processed in \" + msg.transactionTime + \"```\";\nmsg.action = \"edit\";\nmsg.channel = msg.newPayload.discordMsg.channelID;\nmsg.message = msg.newPayload.discordMsg.id;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 2640,
-        "y": 740,
+        "y": 1020,
         "wires": [
             [
                 "ab255d4894438926",
                 "b4a47a43a96b9456",
                 "5d6f4bad5ea5f6c5",
-                "b6257d163b4debaa",
-                "c4546c225e82e531"
+                "b6257d163b4debaa"
             ]
         ]
     },
@@ -6645,7 +6663,7 @@
         "z": "444ae17e1e6afb91",
         "g": "4d2d08a55c9a69ac",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6654,7 +6672,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2610,
-        "y": 660,
+        "y": 940,
         "wires": []
     },
     {
@@ -6663,7 +6681,7 @@
         "z": "444ae17e1e6afb91",
         "g": "4d2d08a55c9a69ac",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6672,7 +6690,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2610,
-        "y": 780,
+        "y": 1060,
         "wires": []
     },
     {
@@ -6695,8 +6713,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2570,
-        "y": 500,
+        "x": 2700,
+        "y": 600,
         "wires": [
             [
                 "d46ef8c103502869"
@@ -6803,8 +6821,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1030,
-        "y": 100,
+        "x": 730,
+        "y": 200,
         "wires": [
             [
                 "b6a5cc3f386e927e",
@@ -6844,7 +6862,7 @@
         "z": "444ae17e1e6afb91",
         "g": "9947ed56b0b80a62",
         "name": "Registered - Can buy",
-        "func": "const newMsg = {};\nnewMsg.payloadNew = msg.payload;\nnewMsg.payload = \"<@\" + msg.author.id + \">\\n```Processing your order...```\";\nnewMsg.channel = msg.channel.id;\nreturn newMsg;",
+        "func": "const newMsg = {};\nnewMsg.payloadNew = msg.payload;\nvar queuePos = flow.get(\"orderQueue\");\nnewMsg.payload = \"<@\" + msg.author.id + \">\\n```Processing your order... You are number \" + (queuePos+1) + \" in the queue.```\";\nnewMsg.channel = msg.channel.id;\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6894,7 +6912,7 @@
         "name": "Send Discord Message",
         "channel": "",
         "token": "934fbc5791d441db",
-        "x": 1270,
+        "x": 1310,
         "y": 180,
         "wires": [
             [
@@ -6907,65 +6925,15 @@
         "type": "function",
         "z": "444ae17e1e6afb91",
         "g": "9947ed56b0b80a62",
-        "name": "",
-        "func": "msg.parts = \"\";\nmsg.payload = msg.payload[0];\nreturn msg;",
+        "name": "Main Flow",
+        "func": "msg.topic = \"orderData\";\nmsg.parts = \"\";\nmsg.orderState = \"processing\";\nmsg.orderTime = Date.now();\nmsg.payload = msg.payload[0];\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 60,
-        "wires": [
-            [
-                "6f2b75efab86fc12"
-            ]
-        ]
-    },
-    {
-        "id": "6f2b75efab86fc12",
-        "type": "join",
-        "z": "444ae17e1e6afb91",
-        "g": "9947ed56b0b80a62",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "10",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 1530,
-        "y": 100,
-        "wires": [
-            [
-                "8a887142bc8126b5",
-                "5c9e59b139eec860"
-            ]
-        ]
-    },
-    {
-        "id": "e6098bd9e86da786",
-        "type": "function",
-        "z": "444ae17e1e6afb91",
-        "g": "9947ed56b0b80a62",
-        "name": "",
-        "func": "msg.parts = \"\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1330,
-        "y": 140,
+        "x": 1050,
+        "y": 40,
         "wires": [
             [
                 "6f2b75efab86fc12"
@@ -6981,7 +6949,7 @@
         "channel": "",
         "token": "934fbc5791d441db",
         "x": 2910,
-        "y": 700,
+        "y": 980,
         "wires": [
             []
         ]
@@ -7000,8 +6968,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2810,
-        "y": 540,
+        "x": 2830,
+        "y": 780,
         "wires": []
     },
     {
@@ -7010,7 +6978,7 @@
         "z": "e7c83390c801a80d",
         "g": "f0dc09849048ecc9",
         "name": "Get Filenames",
-        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = \"Get Filenames: Connection Open\";\n    while (flow.get(\"tail\")) {\n        msg.payload = await(await client.list(dir));\n        node.send(msg);\n        await timeout(30000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\n//msg.payload = \"Connection Closed.\"\nreturn msg",
+        "func": "function timeout(ms) {\n    return new Promise(resolve => setTimeout(resolve, ms));\n}\n\nvar dir = flow.get(\"workingDir\");\nvar host = flow.get(\"host\");\nvar port = flow.get(\"port\");\nvar username = flow.get(\"username\");\nvar password = flow.get(\"password\");\n\nconst client = new ftp.Client()\nclient.ftp.verbose = true\ntry {\n    await client.access({\n        host: host,\n        port: port,\n        user: username,\n        password: password\n    })\n    msg.connection = \"Get Filenames: Connection Open\";\n    while (flow.get(\"tail\")) {\n        msg.payload = await(await client.list(dir));\n        node.send(msg);\n        await timeout(30000);\n    }\n}\ncatch (err) {\n    console.log(err)\n    return err;\n}\nclient.close()\n//msg.payload = \"Connection Closed.\"\nreturn",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7058,7 +7026,8 @@
                 "9263393f1b5c3a7c"
             ],
             [
-                "b9bca31a0e9de6c0"
+                "b9bca31a0e9de6c0",
+                "4cdfa87d977b96c6"
             ]
         ]
     },
@@ -7123,8 +7092,7 @@
         "y": 520,
         "wires": [
             [
-                "d0fe9715cc7094b6",
-                "f97c6f5df35a6f6a"
+                "d0fe9715cc7094b6"
             ]
         ]
     },
@@ -7144,36 +7112,7 @@
         "y": 520,
         "wires": [
             [
-                "4ba7d7b524cf4dd7"
-            ]
-        ]
-    },
-    {
-        "id": "4ba7d7b524cf4dd7",
-        "type": "join",
-        "z": "e7c83390c801a80d",
-        "g": "7c72005ea0dd4a7e",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1090,
-        "y": 520,
-        "wires": [
-            [
-                "2ec098f216d0be5a"
+                "92b40d863658452c"
             ]
         ]
     },
@@ -7211,7 +7150,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1260,
+        "x": 1280,
         "y": 520,
         "wires": [
             [
@@ -7327,17 +7266,17 @@
         "z": "e7c83390c801a80d",
         "g": "7c72005ea0dd4a7e",
         "name": "Format Message - Admin",
-        "func": "var a = msg.payload\n\nvar time = a.substr(0, 19);\nvar ID = a.substring( a.indexOf(\"'\") + 1, a.indexOf(\":\",21));\nvar name = a.substring(a.indexOf(\":\",21)+1, a.indexOf(\"(\",21));\nvar command = a.substring(a.indexOf(\"Command: '\")+10, a.lastIndexOf(\"'\"));\n\nmsg.payload = \"```yaml\\nTime: [\" + time + \"] ID: [\" + ID + \"] Name: [\" + name + \"] Command: [\" + command + \"]\\n```\";\n\nmsg.channel = \"884544363231850557\";\nreturn msg;",
+        "func": "var a = msg.payload\n\n\nvar time = a.substr(0, 19);\nvar ID = a.substr(22, 17);\nvar name = a.substr(a.indexOf(\":\",22)+1,(a.indexOf(\"(\",a.indexOf(\":\",22))-1)-a.indexOf(\":\",22));\nvar command = a.substring(a.indexOf(\"Command: '\")+10, a.lastIndexOf(\"'\"));\n\nmsg.payload = \"```yaml\\nTime: [\" + time + \"] ID: [\" + ID + \"] Name: [\" + name + \"] Command: [\" + command + \"]\\n```\";\n\nmsg.channel = \"884544363231850557\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
+        "x": 1430,
         "y": 580,
         "wires": [
             [
-                "bd24a9a6886cabfe"
+                "279676a4af56caf6"
             ]
         ]
     },
@@ -7421,7 +7360,7 @@
         "z": "e7c83390c801a80d",
         "g": "f0dc09849048ecc9",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7758,7 +7697,7 @@
         "z": "e7c83390c801a80d",
         "g": "f0dc09849048ecc9",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7813,24 +7752,6 @@
                 "c0020d3cc162ec19"
             ]
         ]
-    },
-    {
-        "id": "f97c6f5df35a6f6a",
-        "type": "debug",
-        "z": "e7c83390c801a80d",
-        "g": "7c72005ea0dd4a7e",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "connection",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 900,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "800538f92f1793bd",
@@ -8768,7 +8689,7 @@
         "sql": "",
         "name": "",
         "x": 2080,
-        "y": 720,
+        "y": 1000,
         "wires": [
             [
                 "4d845909b0f03edf"
@@ -8797,7 +8718,7 @@
         "repair": false,
         "outputs": 2,
         "x": 2270,
-        "y": 720,
+        "y": 1000,
         "wires": [
             [
                 "9b906524a06e1441",
@@ -8814,14 +8735,14 @@
         "z": "444ae17e1e6afb91",
         "g": "27505ac0cc6d3b19",
         "name": "update FP balance",
-        "func": "msg.payload = '#SetFamePoints ' + msg.newBalance + ' ' + msg.userDetails[0].steamId;\nreturn msg;",
+        "func": "msg.payload = '#SetFamePoints ' + msg.newBalance + ' ' + msg.userDetails[0].steamId;\nmsg.deliveryStatus = \"processed\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1930,
-        "y": 1000,
+        "y": 1240,
         "wires": [
             [
                 "aaa6cc45f419ba46",
@@ -8835,7 +8756,7 @@
         "z": "444ae17e1e6afb91",
         "g": "27505ac0cc6d3b19",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -8844,7 +8765,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2170,
-        "y": 1040,
+        "y": 1280,
         "wires": []
     },
     {
@@ -8857,7 +8778,7 @@
             "60ae93f7a2d7c381"
         ],
         "x": 2235,
-        "y": 1080,
+        "y": 1320,
         "wires": []
     },
     {
@@ -8866,14 +8787,14 @@
         "z": "444ae17e1e6afb91",
         "g": "27505ac0cc6d3b19",
         "name": "send delivery",
-        "func": "var instruction;\n\nif (msg.itemDetails[0].type == \"vehicle\"){\n    instruction = \"#SpawnVehicle \";\n} \n\nif (msg.itemDetails[0].type == \"item\"){\n    instruction = \"#SpawnItem \";\n}\n\nmsg.payload = instruction + ' ' + msg.itemDetails[0].code + ' ' + msg.itemDetails[0].quantity + ' Location ' + msg.userDetails[0].steamId;\nreturn msg;",
+        "func": "var instruction;\n\nif (msg.itemDetails[0].type == \"vehicle\"){\n    instruction = \"#SpawnVehicle \";\n} \n\nif (msg.itemDetails[0].type == \"item\"){\n    instruction = \"#SpawnItem \";\n}\nmsg.payload = instruction + ' ' + msg.itemDetails[0].code + ' ' + msg.itemDetails[0].quantity + ' Location ' + msg.userDetails[0].steamId;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1910,
-        "y": 1060,
+        "y": 1300,
         "wires": [
             [
                 "aaa6cc45f419ba46",
@@ -8885,8 +8806,9 @@
         "id": "017bd3dc1581d8e7",
         "type": "debug",
         "z": "cf6783623c678570",
+        "g": "c58defa34619bed1",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -8894,8 +8816,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1240,
-        "y": 100,
+        "x": 1110,
+        "y": 60,
         "wires": []
     },
     {
@@ -8906,7 +8828,7 @@
         "name": "Deliver Order and Update FP Balance",
         "info": "",
         "x": 2000,
-        "y": 920,
+        "y": 1160,
         "wires": []
     },
     {
@@ -9393,37 +9315,22 @@
         "timeout": "5",
         "timeoutUnits": "seconds",
         "rate": "1",
-        "nbRateUnits": "3",
+        "nbRateUnits": "1",
         "rateUnits": "second",
         "randomFirst": "1",
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 1180,
+        "x": 1170,
         "y": 360,
         "wires": [
             [
-                "2bc086dd1d0e8d27"
+                "2bc086dd1d0e8d27",
+                "2e934c59d7669df7",
+                "d3f910337df66915"
             ]
         ]
-    },
-    {
-        "id": "c4546c225e82e531",
-        "type": "debug",
-        "z": "444ae17e1e6afb91",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1660,
-        "y": 480,
-        "wires": []
     },
     {
         "id": "401ca76ea342303d",
@@ -9431,7 +9338,7 @@
         "z": "444ae17e1e6afb91",
         "g": "4d2d08a55c9a69ac",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -9440,7 +9347,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2320,
-        "y": 800,
+        "y": 1080,
         "wires": []
     },
     {
@@ -9453,7 +9360,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "PPFolder",
+                "to": "ppFolder",
                 "tot": "flow"
             }
         ],
@@ -9518,5 +9425,680 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "dfbe641a58b09fbd",
+        "type": "status",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "",
+        "scope": [
+            "2bc086dd1d0e8d27"
+        ],
+        "x": 1600,
+        "y": 120,
+        "wires": [
+            [
+                "aafa6f76d9109ab3",
+                "055286a60a7df2a8"
+            ]
+        ]
+    },
+    {
+        "id": "aafa6f76d9109ab3",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "055286a60a7df2a8",
+        "type": "switch",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "",
+        "property": "status.text",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "eq",
+                "v": "common.status.connected",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1760,
+        "y": 120,
+        "wires": [
+            [
+                "88e25f27f1bdbe02"
+            ],
+            [
+                "c66cbcdfd144dacc"
+            ]
+        ]
+    },
+    {
+        "id": "88e25f27f1bdbe02",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "queue",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1930,
+        "y": 100,
+        "wires": [
+            [
+                "08986cca3b6b02c6"
+            ]
+        ]
+    },
+    {
+        "id": "c66cbcdfd144dacc",
+        "type": "change",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1930,
+        "y": 140,
+        "wires": [
+            [
+                "08986cca3b6b02c6"
+            ]
+        ]
+    },
+    {
+        "id": "7db129373035932c",
+        "type": "comment",
+        "z": "cf6783623c678570",
+        "g": "a26a12c8442182ad",
+        "name": "Open/Queue on TCP Connection State",
+        "info": "",
+        "x": 1660,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3b223ac27bb8f2f8",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "g": "79fa116804b14942",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2400,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bf79b256c3fcb978",
+        "type": "simple-queue",
+        "z": "444ae17e1e6afb91",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 1610,
+        "y": 140,
+        "wires": [
+            [
+                "9d4b892de2d9598c",
+                "8a887142bc8126b5",
+                "5c9e59b139eec860"
+            ]
+        ]
+    },
+    {
+        "id": "c17ff235349b0b07",
+        "type": "function",
+        "z": "444ae17e1e6afb91",
+        "g": "4d2d08a55c9a69ac",
+        "name": "Process next order",
+        "func": "const newMsg = {}\nnewMsg.orderState = \"processing\";\nnewMsg.trigger = \"Next!;\"\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2890,
+        "y": 940,
+        "wires": [
+            [
+                "bf79b256c3fcb978"
+            ]
+        ]
+    },
+    {
+        "id": "2e934c59d7669df7",
+        "type": "function",
+        "z": "cf6783623c678570",
+        "name": "if order, Process next order",
+        "func": "const newMsg = {}\nif (msg.deliveryStatus == \"processed\"){\nnewMsg.orderState = \"processing\";\nnewMsg.trigger = \"Next!;\"\nreturn newMsg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 440,
+        "wires": [
+            [
+                "60a3de8393137eaa",
+                "d341fb71b95159fd"
+            ]
+        ]
+    },
+    {
+        "id": "d3f910337df66915",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "60a3de8393137eaa",
+        "type": "link out",
+        "z": "cf6783623c678570",
+        "name": "trigger next order",
+        "links": [
+            "d9c2c9aa4692d306"
+        ],
+        "x": 1625,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d9c2c9aa4692d306",
+        "type": "link in",
+        "z": "444ae17e1e6afb91",
+        "name": "trigger next order",
+        "links": [
+            "60a3de8393137eaa"
+        ],
+        "x": 1495,
+        "y": 360,
+        "wires": [
+            [
+                "bf79b256c3fcb978",
+                "64d76a631ac0c014"
+            ]
+        ]
+    },
+    {
+        "id": "9d4b892de2d9598c",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1750,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6f94c3079693f32e",
+        "type": "inject",
+        "z": "444ae17e1e6afb91",
+        "name": "reset queue",
+        "props": [
+            {
+                "p": "reset",
+                "v": "reset",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1710,
+        "y": 40,
+        "wires": [
+            [
+                "bf79b256c3fcb978"
+            ]
+        ]
+    },
+    {
+        "id": "8b10e7aa1af8362c",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2390,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "d341fb71b95159fd",
+        "type": "debug",
+        "z": "cf6783623c678570",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "64d76a631ac0c014",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "name": "trigger return",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1640,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4618b7330e7951b0",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "name": "Join",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1530,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "2eeb45a4aca74e7e",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "g": "79fa116804b14942",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2800,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "333c655abf0a0027",
+        "type": "debug",
+        "z": "444ae17e1e6afb91",
+        "g": "8b891dd4611c028d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2140,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "6f2b75efab86fc12",
+        "type": "join",
+        "z": "444ae17e1e6afb91",
+        "g": "9947ed56b0b80a62",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "2",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1390,
+        "y": 80,
+        "wires": [
+            [
+                "4618b7330e7951b0",
+                "bf79b256c3fcb978"
+            ]
+        ]
+    },
+    {
+        "id": "e6098bd9e86da786",
+        "type": "function",
+        "z": "444ae17e1e6afb91",
+        "g": "9947ed56b0b80a62",
+        "name": "Message ID to merge into main flow",
+        "func": "msg.topic = \"discordMsg\";\nmsg.parts = \"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 100,
+        "wires": [
+            [
+                "6f2b75efab86fc12"
+            ]
+        ]
+    },
+    {
+        "id": "28ab5a9d48e45c0c",
+        "type": "inject",
+        "z": "e7c83390c801a80d",
+        "g": "f13b70955d462e75",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2021.09.19-15.07.06: {\"Killer\":{\"ServerLocation\":{\"X\": 0,\"Y\": 0,\"Z\": 0},\"ClientLocation\":{\"X\": 0,\"Y\": 0,\"Z\": 0},\"IsInGameEvent\": false,\"ProfileName\": \"ZeEk-e-Boi\",\"UserId\": \"76561198032219419\",\"HasImmortality\": false},\"Victim\":{\"ServerLocation\":{\"X\": 559976.0625,\"Y\": 22364.798828125,\"Z\": 7226.72998046875},\"ClientLocation\":{\"X\": 559976.0625,\"Y\": 22364.798828125,\"Z\": 7226.72998046875},\"IsInGameEvent\": false,\"ProfileName\": \"Skokkie08\",\"UserId\": \"76561198986488481\"},\"Weapon\": \"ImprovisedMine_C_2136182657 [Explosion]\",\"TimeOfDay\": \"15:02:51\"}",
+        "payloadType": "str",
+        "x": 700,
+        "y": 1320,
+        "wires": [
+            [
+                "8e390dd4c4b0c4c3"
+            ]
+        ]
+    },
+    {
+        "id": "4ba7d7b524cf4dd7",
+        "type": "join",
+        "z": "e7c83390c801a80d",
+        "g": "7c72005ea0dd4a7e",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "1.5",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1090,
+        "y": 520,
+        "wires": [
+            [
+                "2ec098f216d0be5a"
+            ]
+        ]
+    },
+    {
+        "id": "279676a4af56caf6",
+        "type": "switch",
+        "z": "e7c83390c801a80d",
+        "name": "Discard \"Game version: \"",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "cont",
+                "v": "Game version: ",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2030,
+        "y": 1920,
+        "wires": [
+            [
+                "bd24a9a6886cabfe"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0fc2e3479b407667",
+        "type": "catch",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "scope": [
+            "bd24a9a6886cabfe"
+        ],
+        "uncaught": false,
+        "x": 2190,
+        "y": 1800,
+        "wires": [
+            [
+                "8b10e7aa1af8362c"
+            ]
+        ]
+    },
+    {
+        "id": "529f67cdf2348f26",
+        "type": "catch",
+        "z": "e7c83390c801a80d",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 2150,
+        "y": 2300,
+        "wires": [
+            [
+                "c5c170fe63610de1"
+            ]
+        ]
+    },
+    {
+        "id": "c5c170fe63610de1",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "name": "Catch All Error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2370,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "92b40d863658452c",
+        "type": "function",
+        "z": "e7c83390c801a80d",
+        "g": "7c72005ea0dd4a7e",
+        "name": "",
+        "func": "msg.originalLogLine = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 460,
+        "wires": [
+            [
+                "4ba7d7b524cf4dd7"
+            ]
+        ]
+    },
+    {
+        "id": "9bb2f5d70f755c29",
+        "type": "inject",
+        "z": "e7c83390c801a80d",
+        "g": "7c72005ea0dd4a7e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2021.09.20-12.46.26: '76561199135144674:CHAPPIE(235)' Command: 'spawnitem Water_05l 5 location \"-8785.090 244655.531 44443.738\"'",
+        "payloadType": "str",
+        "x": 1200,
+        "y": 620,
+        "wires": [
+            [
+                "6da5b1a2028ab12b"
+            ]
+        ]
+    },
+    {
+        "id": "4cdfa87d977b96c6",
+        "type": "debug",
+        "z": "e7c83390c801a80d",
+        "g": "f0dc09849048ecc9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 300,
+        "wires": []
     }
 ]
