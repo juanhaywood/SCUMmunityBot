@@ -7,7 +7,9 @@
         "node-red-contrib-discord-advanced": "2.3.1",
         "node-red-dashboard": "2.30.0",
         "node-red-node-sqlite": "1.0.0",
-        "node-red-contrib-queue-gate": "1.5.4"
+        "node-red-contrib-queue-gate": "1.5.4",
+        "node-red-contrib-simple-message-queue": "0.2.7",
+        "node-red-node-ui-table": "0.3.11"
     },
     "node-red": {
         "settings": {
