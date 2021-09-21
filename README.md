@@ -17,7 +17,12 @@ https://discord.gg/yszCqqA3n8
 
 Discord Bot Shop! Using fame as currency, players can buy items that you configure in a catalogue, and the bot will deliver it to their location:
 
-https://youtu.be/29gXXwLqTPk
+Demo: https://youtu.be/29gXXwLqTPk
+
+Catalogue:
+
+![image](https://user-images.githubusercontent.com/53084642/134143556-39da9c4b-7c3b-435c-b93f-607191657120.png)
+
 
 
 Send messages and admin commands to the SCUM Game via the Bot Client application: https://github.com/juanhaywood/SCUMmunityBotClient
