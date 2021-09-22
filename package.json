@@ -1,0 +1,28 @@
+{
+    "name": "scummunitybot",
+    "description": "SCUMmunityBot",
+    "version": "0.0.1",
+    "dependencies": {
+        "@cloudnative/health-connect": "^2.0.0",
+        "express": "4.17.1",
+        "node-red": "^1.0.0",
+        "@tmus/node-red-contrib-differences": "1.1.1",
+        "node-red-contrib-discord-advanced": "2.3.1",
+        "node-red-dashboard": "2.30.0",
+        "node-red-node-sqlite": "1.0.0",
+        "node-red-contrib-queue-gate": "1.5.4",
+        "node-red-contrib-simple-message-queue": "0.2.7",
+        "node-red-node-ui-table": "0.3.11"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "~6.1.0",
+        "request": "^2.88.0"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
