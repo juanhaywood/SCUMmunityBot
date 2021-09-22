@@ -28,7 +28,6 @@ RUN mkdir -p /data && chown 1000 /data
 
 USER 1000
 
-COPY ./server.js /data/
 COPY ./settings.js /data/
 COPY ./flows.json /data/
 COPY ./flows_cred.json /data/
@@ -49,4 +48,4 @@ ENV NODE_ENV=production
 ENV NODE_PATH=/data/node_modules
 EXPOSE 1880
 
-CMD ["node", "/data/server.js", "/data/flows.json"]
+CMD ["node", "/data/flows.json"]
